@@ -5,6 +5,7 @@
 #include <map>
 #include <chrono>
 #include <cmath>
+#include <cstdio>
 
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/pose.hpp"
@@ -13,6 +14,8 @@
 #include "tf2_ros/buffer.h"
 #include "tf2_ros/transform_listener.h"
 #include "tf2_geometry_msgs/tf2_geometry_msgs.hpp"
+#include "tf2/LinearMath/Transform.h"
+#include "tf2/LinearMath/Matrix3x3.h"
 
 #include "chesslab_setup2_interfaces/srv/detect_piece_poses.hpp"
 #include "chesslab_setup2_interfaces/srv/get_piece_location.hpp"
@@ -55,11 +58,18 @@ private:
   std::string camera_frame_;
   std::string aruco_frame_prefix_;
   double tf_timeout_;
+  int tf_retry_attempts_;
+  double tf_retry_delay_s_;
+  bool tf_debug_log_;
 
   // Helper methods
   void initializePieceIds();
   void initializePieceHeights();
   bool getPieceTransform(int piece_id, geometry_msgs::msg::TransformStamped& transform);
+  bool chainThroughCamera(const std::string& aruco_frame,
+                          geometry_msgs::msg::TransformStamped& transform,
+                          std::string& error_out);
+  std::string transformToString(const geometry_msgs::msg::TransformStamped& tf);
   geometry_msgs::msg::Pose transformToPose(const geometry_msgs::msg::TransformStamped& transform);
   bool setPieceInRviz(int piece_id, const geometry_msgs::msg::Pose& pose);
   std::string getPieceType(int piece_id);
@@ -97,16 +107,24 @@ SensingNode::SensingNode() : Node("sensing_node")
   this->declare_parameter<std::string>("camera_frame", "camera_color_optical_frame");
   this->declare_parameter<std::string>("aruco_frame_prefix", "aruco");
   this->declare_parameter<double>("tf_timeout", 2.0);
+  this->declare_parameter<int>("tf_retry_attempts", 2);
+  this->declare_parameter<double>("tf_retry_delay_s", 0.2);
+  this->declare_parameter<bool>("tf_debug_log", false);
 
   this->get_parameter("world_frame", world_frame_);
   this->get_parameter("camera_frame", camera_frame_);
   this->get_parameter("aruco_frame_prefix", aruco_frame_prefix_);
   this->get_parameter("tf_timeout", tf_timeout_);
+  this->get_parameter("tf_retry_attempts", tf_retry_attempts_);
+  this->get_parameter("tf_retry_delay_s", tf_retry_delay_s_);
+  this->get_parameter("tf_debug_log", tf_debug_log_);
 
   RCLCPP_INFO(this->get_logger(), "Starting Sensing Module Node");
   RCLCPP_INFO(this->get_logger(), "  World frame: %s", world_frame_.c_str());
   RCLCPP_INFO(this->get_logger(), "  Camera frame: %s", camera_frame_.c_str());
   RCLCPP_INFO(this->get_logger(), "  Aruco frame prefix: %s", aruco_frame_prefix_.c_str());
+  RCLCPP_INFO(this->get_logger(), "  TF timeout: %.2fs, retries: %d, retry delay: %.2fs",
+              tf_timeout_, tf_retry_attempts_, tf_retry_delay_s_);
 
   // Initialize TF2
   tf_buffer_ = std::make_shared<tf2_ros::Buffer>(this->get_clock());
@@ -191,19 +209,103 @@ void SensingNode::initializePieceHeights()
 bool SensingNode::getPieceTransform(int piece_id, geometry_msgs::msg::TransformStamped& transform)
 {
   std::string aruco_frame = aruco_frame_prefix_ + "_" + std::to_string(piece_id);
-  
+  std::string last_error;
+
+  for (int attempt = 0; attempt <= tf_retry_attempts_; ++attempt) {
+    if (attempt > 0) {
+      rclcpp::sleep_for(
+        std::chrono::duration_cast<std::chrono::nanoseconds>(
+          std::chrono::duration<double>(tf_retry_delay_s_)));
+    }
+
+    try {
+      transform = tf_buffer_->lookupTransform(
+        world_frame_,
+        aruco_frame,
+        tf2::TimePointZero,
+        tf2::durationFromSec(tf_timeout_));
+
+      if (tf_debug_log_) {
+        RCLCPP_INFO(this->get_logger(),
+                    "[TF] world -> %s (%s)", aruco_frame.c_str(),
+                    transformToString(transform).c_str());
+      }
+      return true;
+    } catch (tf2::TransformException& ex) {
+      last_error = ex.what();
+      std::string chain_error;
+      if (chainThroughCamera(aruco_frame, transform, chain_error)) {
+        if (tf_debug_log_) {
+          RCLCPP_INFO(this->get_logger(),
+                      "[TF fallback] world -> %s via %s (%s)",
+                      aruco_frame.c_str(), camera_frame_.c_str(),
+                      transformToString(transform).c_str());
+        }
+        return true;
+      }
+      if (tf_debug_log_) {
+        RCLCPP_WARN(this->get_logger(),
+                    "Attempt %d/%d: TF lookup failed for %s: %s (fallback: %s)",
+                    attempt + 1, tf_retry_attempts_ + 1,
+                    aruco_frame.c_str(), last_error.c_str(), chain_error.c_str());
+      }
+    }
+  }
+
+  RCLCPP_DEBUG(this->get_logger(), "Could not get transform for piece %d: %s",
+               piece_id, last_error.c_str());
+  return false;
+}
+
+bool SensingNode::chainThroughCamera(const std::string& aruco_frame,
+                                     geometry_msgs::msg::TransformStamped& transform,
+                                     std::string& error_out)
+{
   try {
-    transform = tf_buffer_->lookupTransform(
-      world_frame_, 
-      aruco_frame,
-      tf2::TimePointZero,
-      tf2::durationFromSec(tf_timeout_));
+    auto world_to_cam = tf_buffer_->lookupTransform(
+      world_frame_, camera_frame_, tf2::TimePointZero, tf2::durationFromSec(tf_timeout_));
+    auto cam_to_marker = tf_buffer_->lookupTransform(
+      camera_frame_, aruco_frame, tf2::TimePointZero, tf2::durationFromSec(tf_timeout_));
+
+    tf2::Transform tf_world_cam;
+    tf2::Transform tf_cam_marker;
+    tf2::fromMsg(world_to_cam.transform, tf_world_cam);
+    tf2::fromMsg(cam_to_marker.transform, tf_cam_marker);
+
+    tf2::Transform tf_world_marker = tf_world_cam * tf_cam_marker;
+
+    transform.header.stamp = this->now();
+    transform.header.frame_id = world_frame_;
+    transform.child_frame_id = aruco_frame;
+    transform.transform = tf2::toMsg(tf_world_marker);
     return true;
   } catch (tf2::TransformException& ex) {
-    RCLCPP_DEBUG(this->get_logger(), "Could not get transform for piece %d: %s", 
-                 piece_id, ex.what());
+    error_out = ex.what();
     return false;
   }
+}
+
+std::string SensingNode::transformToString(const geometry_msgs::msg::TransformStamped& tf)
+{
+  tf2::Quaternion q(tf.transform.rotation.x,
+                    tf.transform.rotation.y,
+                    tf.transform.rotation.z,
+                    tf.transform.rotation.w);
+  double roll, pitch, yaw;
+  tf2::Matrix3x3(q).getRPY(roll, pitch, yaw);
+
+  char buffer[256];
+  std::snprintf(buffer, sizeof(buffer),
+                "t=[%.4f, %.4f, %.4f] q=[%.4f, %.4f, %.4f, %.4f] rpy=[%.3f, %.3f, %.3f]",
+                tf.transform.translation.x,
+                tf.transform.translation.y,
+                tf.transform.translation.z,
+                tf.transform.rotation.x,
+                tf.transform.rotation.y,
+                tf.transform.rotation.z,
+                tf.transform.rotation.w,
+                roll, pitch, yaw);
+  return std::string(buffer);
 }
 
 geometry_msgs::msg::Pose SensingNode::transformToPose(

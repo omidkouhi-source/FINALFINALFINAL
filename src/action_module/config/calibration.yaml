@@ -1,0 +1,32 @@
+# Calibration and debugging defaults for action_module
+#
+# Override at launch:
+#   ros2 launch action_module action.launch.py config_file:=/path/to/custom.yaml
+#
+executor:
+  ros__parameters:
+    world_frame: "world"
+    ik_base_frame: "base"
+    aruco_frame_prefix: "aruco"
+    marker_to_grasp_offset_x: 0.0
+    marker_to_grasp_offset_y: 0.0
+    marker_to_grasp_offset_z: -0.02   # move down from marker toward grasp point
+    board_square_size: 0.05
+    board_origin_x: -0.175
+    board_origin_y: -0.175
+    board_yaw: 0.0
+    board_swap_xy: true
+    board_flip_x: false
+    board_flip_y: false
+    dry_run: false
+    workspace_radius: 0.75
+    log_pick_place_poses: true
+tf_sanity_checker:
+  ros__parameters:
+    world_frame: "world"
+    camera_frame: "camera_color_optical_frame"
+    target_frame: "base"
+    aruco_frame_prefix: "aruco"
+    aruco_id: 316
+    lookup_timeout: 0.5
+    check_interval: 2.0

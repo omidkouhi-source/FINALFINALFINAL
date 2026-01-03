@@ -1,9 +1,12 @@
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
+from launch.conditions import IfCondition
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.actions import Node
+from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
+    config_file = LaunchConfiguration("config_file")
     pick_frame = LaunchConfiguration("pick_frame")
     place_square = LaunchConfiguration("place_square")
     ik_robot_type = LaunchConfiguration("ik_robot_type")
@@ -37,8 +40,28 @@ def generate_launch_description():
     traj_steps = LaunchConfiguration("traj_steps")
     traj_dt = LaunchConfiguration("traj_dt")
     wait_for_traj = LaunchConfiguration("wait_for_traj")
+    marker_to_grasp_offset_x = LaunchConfiguration("marker_to_grasp_offset_x")
+    marker_to_grasp_offset_y = LaunchConfiguration("marker_to_grasp_offset_y")
+    marker_to_grasp_offset_z = LaunchConfiguration("marker_to_grasp_offset_z")
+    dry_run = LaunchConfiguration("dry_run")
+    workspace_radius = LaunchConfiguration("workspace_radius")
+    run_tf_sanity_checker = LaunchConfiguration("run_tf_sanity_checker")
+    tf_check_interval = LaunchConfiguration("tf_check_interval")
+    tf_check_aruco_id = LaunchConfiguration("tf_check_aruco_id")
+    tf_camera_frame = LaunchConfiguration("tf_camera_frame")
+    tf_target_frame = LaunchConfiguration("tf_target_frame")
+    tf_lookup_timeout = LaunchConfiguration("tf_lookup_timeout")
 
     return LaunchDescription([
+        DeclareLaunchArgument(
+            "config_file",
+            default_value=PathJoinSubstitution([
+                FindPackageShare("action_module"),
+                "config",
+                "calibration.yaml",
+            ]),
+            description="YAML file with calibration/debug parameters."
+        ),
         DeclareLaunchArgument(
             "pick_frame",
             default_value="",
@@ -190,6 +213,61 @@ def generate_launch_description():
             description="Place retreat height offset (meters) above board square.",
         ),
         DeclareLaunchArgument(
+            "marker_to_grasp_offset_x",
+            default_value="0.0",
+            description="Offset X (m) from marker frame to grasp point."
+        ),
+        DeclareLaunchArgument(
+            "marker_to_grasp_offset_y",
+            default_value="0.0",
+            description="Offset Y (m) from marker frame to grasp point."
+        ),
+        DeclareLaunchArgument(
+            "marker_to_grasp_offset_z",
+            default_value="-0.02",
+            description="Offset Z (m) from marker frame to grasp point."
+        ),
+        DeclareLaunchArgument(
+            "dry_run",
+            default_value="false",
+            description="If true, only prints planned poses without moving the robot."
+        ),
+        DeclareLaunchArgument(
+            "workspace_radius",
+            default_value="0.75",
+            description="Workspace radius (meters) for simple safety check."
+        ),
+        DeclareLaunchArgument(
+            "run_tf_sanity_checker",
+            default_value="false",
+            description="Launch auxiliary TF sanity checker node."
+        ),
+        DeclareLaunchArgument(
+            "tf_check_interval",
+            default_value="2.0",
+            description="Seconds between TF sanity checker logs."
+        ),
+        DeclareLaunchArgument(
+            "tf_check_aruco_id",
+            default_value="316",
+            description="ArUco ID to verify in TF sanity checker."
+        ),
+        DeclareLaunchArgument(
+            "tf_camera_frame",
+            default_value="camera_color_optical_frame",
+            description="Camera frame used for sanity checker fallback composition."
+        ),
+        DeclareLaunchArgument(
+            "tf_target_frame",
+            default_value="base",
+            description="Robot base frame to verify reachability."
+        ),
+        DeclareLaunchArgument(
+            "tf_lookup_timeout",
+            default_value="0.5",
+            description="TF lookup timeout (seconds) for sanity checker."
+        ),
+        DeclareLaunchArgument(
             "traj_steps",
             default_value="50",
             description="Trajectory interpolation steps per move.",
@@ -242,7 +320,7 @@ def generate_launch_description():
             executable="executor",
             name="executor",
             output="screen",
-            parameters=[{
+            parameters=[config_file, {
                 "pick_frame": pick_frame,
                 "place_square": place_square,
                 "ik_robot_type": ik_robot_type,
@@ -273,9 +351,32 @@ def generate_launch_description():
                 "place_grasp_z": place_grasp_z,
                 "place_approach_z": place_approach_z,
                 "place_retreat_z": place_retreat_z,
+                "marker_to_grasp_offset_x": marker_to_grasp_offset_x,
+                "marker_to_grasp_offset_y": marker_to_grasp_offset_y,
+                "marker_to_grasp_offset_z": marker_to_grasp_offset_z,
+                "dry_run": dry_run,
+                "workspace_radius": workspace_radius,
                 "traj_steps": traj_steps,
                 "traj_dt": traj_dt,
                 "wait_for_traj": wait_for_traj,
+            }],
+        ),
+
+        # Optional TF sanity checker
+        Node(
+            condition=IfCondition(run_tf_sanity_checker),
+            package="action_module",
+            executable="tf_sanity_checker",
+            name="tf_sanity_checker",
+            output="screen",
+            parameters=[config_file, {
+                "world_frame": world_frame,
+                "camera_frame": tf_camera_frame,
+                "target_frame": tf_target_frame,
+                "aruco_frame_prefix": aruco_frame_prefix,
+                "aruco_id": tf_check_aruco_id,
+                "check_interval": tf_check_interval,
+                "lookup_timeout": tf_lookup_timeout,
             }],
         )
     ])

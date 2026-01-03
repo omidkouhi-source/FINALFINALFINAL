@@ -26,6 +26,12 @@ This launches:
 - Gripper server
 - Planning module services
 - Action executor (with `/move_piece` service)
+- Optional TF sanity checker (`run_tf_sanity_checker:=true`)
+
+Parameters are loaded from `action_module/config/calibration.yaml` by default. Override with:
+```bash
+ros2 launch action_module action.launch.py config_file:=/absolute/path/to/custom.yaml
+```
 
 ### Step 4: Detect All Pieces on the Board
 
@@ -123,6 +129,17 @@ ros2 launch action_module action.launch.py \
   gripper_roll:=3.14159 gripper_pitch:=0.0 gripper_yaw:=0.0
 ```
 
+If the grasp point is offset from the ArUco marker center, tune the marker-to-grasp offset:
+```bash
+ros2 launch action_module action.launch.py \
+  marker_to_grasp_offset_x:=0.0 marker_to_grasp_offset_y:=0.0 marker_to_grasp_offset_z:=-0.02
+```
+
+If you want to validate TF math without moving the robot, enable dry-run:
+```bash
+ros2 launch action_module action.launch.py dry_run:=true
+```
+
 If the arm needs to hover higher over pieces/squares:
 ```bash
 ros2 launch action_module action.launch.py \
@@ -203,6 +220,8 @@ ros2 launch action_module action.launch.py \
 - Run `detect_piece_poses` service first
 - Verify the ArUco marker is visible to the camera
 - Check that the piece is actually on the board
+- Inspect TF chain: `ros2 run tf2_ros tf2_echo world aruco_<ID>`
+- Run the sanity node: `ros2 launch action_module action.launch.py run_tf_sanity_checker:=true tf_check_aruco_id:=<ID>`
 
 **"IK service unavailable"**
 - Make sure `kinenik_srv_server` is running
@@ -212,6 +231,8 @@ ros2 launch action_module action.launch.py \
 - Check joint_states topic: `ros2 topic echo /joint_states`
 - Verify IK service is responding
 - Check for TF errors: `ros2 run tf2_ros tf2_echo world aruco_316`
+- Visualize TF tree: `ros2 run tf2_tools view_frames` (produces frames.pdf)
+- Continuous TF logging: `ros2 run tf2_ros tf2_echo world camera_color_optical_frame`
 
 ## Viewing in RViz
 

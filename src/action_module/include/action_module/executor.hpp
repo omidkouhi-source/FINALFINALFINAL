@@ -32,6 +32,8 @@ private:
   double pick_post_wait_;
   double ik_fallback_z_step_;
   int ik_fallback_attempts_;
+  bool dry_run_;
+  double workspace_radius_;
 
   // Helpers
   std::shared_ptr<planning_module::BoardGeometry> board_;
@@ -74,6 +76,7 @@ private:
   void pause_between_segments();
   void sleep_for_seconds(double seconds);
   bool move_with_z_fallback(geometry_msgs::msg::Pose & pose, const char * label);
+  bool pose_within_workspace(const geometry_msgs::msg::Pose & pose) const;
 };
 
 } // namespace action_module

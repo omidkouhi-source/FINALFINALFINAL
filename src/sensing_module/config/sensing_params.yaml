@@ -5,3 +5,6 @@ sensing_node:
     camera_frame: "camera_color_optical_frame"
     aruco_frame_prefix: "aruco"
     tf_timeout: 2.0
+    tf_retry_attempts: 2
+    tf_retry_delay_s: 0.2
+    tf_debug_log: false

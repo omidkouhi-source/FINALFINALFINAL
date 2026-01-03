@@ -56,6 +56,10 @@ private:
   double place_grasp_z_;
   double place_approach_z_;
   double place_retreat_z_;
+  double marker_offset_x_;
+  double marker_offset_y_;
+  double marker_offset_z_;
+  bool log_pick_place_poses_;
 };
 
 } // namespace action_module

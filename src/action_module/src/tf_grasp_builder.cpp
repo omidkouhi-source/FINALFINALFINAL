@@ -1,4 +1,5 @@
 #include "action_module/tf_grasp_builder.hpp"
+#include "action_module/tf_format_utils.hpp"
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 #include <chrono>
 using namespace std::chrono_literals;
@@ -51,6 +52,18 @@ TFGraspBuilder::TFGraspBuilder(rclcpp::Node::SharedPtr node)
   if (!node_->has_parameter("place_retreat_z")) {
     node_->declare_parameter<double>("place_retreat_z", 0.24);
   }
+  if (!node_->has_parameter("marker_to_grasp_offset_x")) {
+    node_->declare_parameter<double>("marker_to_grasp_offset_x", 0.0);
+  }
+  if (!node_->has_parameter("marker_to_grasp_offset_y")) {
+    node_->declare_parameter<double>("marker_to_grasp_offset_y", 0.0);
+  }
+  if (!node_->has_parameter("marker_to_grasp_offset_z")) {
+    node_->declare_parameter<double>("marker_to_grasp_offset_z", -0.02);
+  }
+  if (!node_->has_parameter("log_pick_place_poses")) {
+    node_->declare_parameter<bool>("log_pick_place_poses", true);
+  }
   world_frame_ = node_->get_parameter("world_frame").as_string();
   ik_base_frame_ = node_->get_parameter("ik_base_frame").as_string();
 
@@ -67,6 +80,10 @@ TFGraspBuilder::TFGraspBuilder(rclcpp::Node::SharedPtr node)
   place_grasp_z_ = node_->get_parameter("place_grasp_z").as_double();
   place_approach_z_ = node_->get_parameter("place_approach_z").as_double();
   place_retreat_z_ = node_->get_parameter("place_retreat_z").as_double();
+  marker_offset_x_ = node_->get_parameter("marker_to_grasp_offset_x").as_double();
+  marker_offset_y_ = node_->get_parameter("marker_to_grasp_offset_y").as_double();
+  marker_offset_z_ = node_->get_parameter("marker_to_grasp_offset_z").as_double();
+  log_pick_place_poses_ = node_->get_parameter("log_pick_place_poses").as_bool();
 }
 
 // ---------------------------
@@ -82,6 +99,12 @@ bool TFGraspBuilder::lookup_pose(const std::string & frame,
     pose.position.z = tf.transform.translation.z;
 
     pose.orientation = tf.transform.rotation;
+    if (log_pick_place_poses_) {
+      RCLCPP_INFO(node_->get_logger(),
+                  "[TF lookup] %s -> %s : %s",
+                  world_frame_.c_str(), frame.c_str(),
+                  tf_format::pose_to_string(pose).c_str());
+    }
     return true;
   }
   catch (const tf2::TransformException & ex) {
@@ -126,14 +149,26 @@ bool TFGraspBuilder::build_pick_poses_from_pose(const geometry_msgs::msg::Pose &
                                                 geometry_msgs::msg::Pose & grasp,
                                                 geometry_msgs::msg::Pose & retreat)
 {
+  geometry_msgs::msg::Pose base_pose =
+    offset_pose(object_pose, marker_offset_x_, marker_offset_y_, marker_offset_z_);
+
   // Create poses with vertical offsets:
-  grasp    = offset_pose(object_pose, 0.0, 0.0, pick_grasp_z_);
-  approach = offset_pose(object_pose, 0.0, 0.0, pick_approach_z_);
-  retreat  = offset_pose(object_pose, 0.0, 0.0, pick_retreat_z_);
+  grasp    = offset_pose(base_pose, 0.0, 0.0, pick_grasp_z_);
+  approach = offset_pose(base_pose, 0.0, 0.0, pick_approach_z_);
+  retreat  = offset_pose(base_pose, 0.0, 0.0, pick_retreat_z_);
 
   apply_gripper_orientation(grasp);
   apply_gripper_orientation(approach);
   apply_gripper_orientation(retreat);
+
+  if (log_pick_place_poses_) {
+    RCLCPP_INFO(node_->get_logger(),
+                "[PickPose] base=%s approach=%s grasp=%s retreat=%s",
+                tf_format::pose_to_string(base_pose).c_str(),
+                tf_format::pose_to_string(approach).c_str(),
+                tf_format::pose_to_string(grasp).c_str(),
+                tf_format::pose_to_string(retreat).c_str());
+  }
 
   // Broadcast TFs (optional visual debugging)
   auto timestamp = node_->now();
@@ -141,7 +176,7 @@ bool TFGraspBuilder::build_pick_poses_from_pose(const geometry_msgs::msg::Pose &
   {
     geometry_msgs::msg::TransformStamped t;
     t.header.stamp = timestamp;
-    t.header.frame_id = "world";
+    t.header.frame_id = world_frame_;
     t.child_frame_id = child;
     t.transform.translation.x = p.position.x;
     t.transform.translation.y = p.position.y;
@@ -174,12 +209,21 @@ bool TFGraspBuilder::build_place_poses(const geometry_msgs::msg::Pose & square_p
   apply_gripper_orientation(approach);
   apply_gripper_orientation(retreat);
 
+  if (log_pick_place_poses_) {
+    RCLCPP_INFO(node_->get_logger(),
+                "[PlacePose] square=%s approach=%s place=%s retreat=%s",
+                tf_format::pose_to_string(square_pose).c_str(),
+                tf_format::pose_to_string(approach).c_str(),
+                tf_format::pose_to_string(place).c_str(),
+                tf_format::pose_to_string(retreat).c_str());
+  }
+
   auto timestamp = node_->now();
   auto send_tf = [&](const std::string & child, const geometry_msgs::msg::Pose & p)
   {
     geometry_msgs::msg::TransformStamped t;
     t.header.stamp = timestamp;
-    t.header.frame_id = "world";
+    t.header.frame_id = world_frame_;
     t.child_frame_id = child;
     t.transform.translation.x = p.position.x;
     t.transform.translation.y = p.position.y;

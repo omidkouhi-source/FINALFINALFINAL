@@ -83,10 +83,21 @@ rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_t
 target_link_libraries(executor "${cpp_typesupport_target}")
 
 # ======================
+# TF sanity checker node
+# ======================
+add_executable(tf_sanity_checker src/tf_sanity_checker.cpp)
+ament_target_dependencies(tf_sanity_checker
+    rclcpp
+    tf2
+    tf2_ros
+    tf2_geometry_msgs
+)
+
+# ======================
 # Install
 # ======================
 install(
-    TARGETS executor
+    TARGETS executor tf_sanity_checker
     DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -109,6 +120,11 @@ install(
 
 install(
     DIRECTORY srv/
+    DESTINATION share/${PROJECT_NAME}
+)
+
+install(
+    DIRECTORY config/
     DESTINATION share/${PROJECT_NAME}
 )
 

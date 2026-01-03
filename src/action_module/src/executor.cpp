@@ -1,8 +1,10 @@
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp/executors/multi_threaded_executor.hpp"
 #include "action_module/executor.hpp"
+#include "action_module/tf_format_utils.hpp"
 #include <chrono>
 #include <algorithm>
+#include <cmath>
 using namespace std::chrono_literals;
 
 namespace action_module
@@ -33,6 +35,8 @@ Executor::Executor()
   declare_parameter<bool>("board_swap_xy", true);
   declare_parameter<bool>("board_flip_x", false);
   declare_parameter<bool>("board_flip_y", false);
+  declare_parameter<bool>("dry_run", false);
+  declare_parameter<double>("workspace_radius", 0.75);
 
   pick_frame_   = get_parameter("pick_frame").as_string();
   place_square_ = get_parameter("place_square").as_string();
@@ -43,6 +47,8 @@ Executor::Executor()
   pick_post_wait_ = get_parameter("pick_post_wait").as_double();
   ik_fallback_z_step_ = get_parameter("ik_fallback_z_step").as_double();
   ik_fallback_attempts_ = get_parameter("ik_fallback_attempts").as_int();
+  dry_run_ = get_parameter("dry_run").as_bool();
+  workspace_radius_ = get_parameter("workspace_radius").as_double();
   double board_square_size = get_parameter("board_square_size").as_double();
   double board_origin_x = get_parameter("board_origin_x").as_double();
   double board_origin_y = get_parameter("board_origin_y").as_double();
@@ -303,6 +309,27 @@ bool Executor::execute_move_sequence(const std::string & pick_frame, const std::
   geometry_msgs::msg::Pose pick_grasp_ik;
   geometry_msgs::msg::Pose pick_retreat_ik;
 
+  auto check_workspace = [&](const char * label, const geometry_msgs::msg::Pose & p)
+  {
+    if (!pose_within_workspace(p)) {
+      RCLCPP_WARN(get_logger(),
+                  "[Workspace] %s pose %s is outside radius %.2fm",
+                  label, tf_format::pose_to_string(p).c_str(), workspace_radius_);
+    }
+  };
+
+  check_workspace("pick approach", pick_approach);
+  check_workspace("pick grasp", pick_grasp);
+  check_workspace("pick retreat", pick_retreat);
+
+  if (dry_run_) {
+    RCLCPP_INFO(get_logger(),
+                "[Dry-run] Pick poses (world): approach=%s grasp=%s retreat=%s",
+                tf_format::pose_to_string(pick_approach).c_str(),
+                tf_format::pose_to_string(pick_grasp).c_str(),
+                tf_format::pose_to_string(pick_retreat).c_str());
+  }
+
   if (!tf_builder_->transform_to_ik_frame(pick_approach, pick_approach_ik) ||
       !tf_builder_->transform_to_ik_frame(pick_grasp, pick_grasp_ik) ||
       !tf_builder_->transform_to_ik_frame(pick_retreat, pick_retreat_ik))
@@ -334,12 +361,29 @@ bool Executor::execute_move_sequence(const std::string & pick_frame, const std::
   geometry_msgs::msg::Pose place_grasp_ik;
   geometry_msgs::msg::Pose place_retreat_ik;
 
+  check_workspace("place approach", place_approach);
+  check_workspace("place grasp", place_grasp);
+  check_workspace("place retreat", place_retreat);
+  if (dry_run_) {
+    RCLCPP_INFO(get_logger(),
+                "[Dry-run] Place poses (world): approach=%s grasp=%s retreat=%s",
+                tf_format::pose_to_string(place_approach).c_str(),
+                tf_format::pose_to_string(place_grasp).c_str(),
+                tf_format::pose_to_string(place_retreat).c_str());
+  }
+
   if (!tf_builder_->transform_to_ik_frame(place_approach, place_approach_ik) ||
       !tf_builder_->transform_to_ik_frame(place_grasp, place_grasp_ik) ||
       !tf_builder_->transform_to_ik_frame(place_retreat, place_retreat_ik))
   {
     RCLCPP_ERROR(get_logger(), "Failed to transform place poses to IK base frame.");
     return false;
+  }
+
+  if (dry_run_) {
+    RCLCPP_WARN(get_logger(),
+                "[Dry-run] Skipping execution. Pick and place poses planned (IK) successfully.");
+    return true;
   }
 
   // -----------------------------------------------------
@@ -416,6 +460,27 @@ bool Executor::execute_move_sequence(const geometry_msgs::msg::Pose & pick_appro
   geometry_msgs::msg::Pose pick_grasp_ik;
   geometry_msgs::msg::Pose pick_retreat_ik;
 
+  auto check_workspace = [&](const char * label, const geometry_msgs::msg::Pose & p)
+  {
+    if (!pose_within_workspace(p)) {
+      RCLCPP_WARN(get_logger(),
+                  "[Workspace] %s pose %s is outside radius %.2fm",
+                  label, tf_format::pose_to_string(p).c_str(), workspace_radius_);
+    }
+  };
+
+  check_workspace("pick approach", pick_approach);
+  check_workspace("pick grasp", pick_grasp);
+  check_workspace("pick retreat", pick_retreat);
+
+  if (dry_run_) {
+    RCLCPP_INFO(get_logger(),
+                "[Dry-run] Pick poses (world): approach=%s grasp=%s retreat=%s",
+                tf_format::pose_to_string(pick_approach).c_str(),
+                tf_format::pose_to_string(pick_grasp).c_str(),
+                tf_format::pose_to_string(pick_retreat).c_str());
+  }
+
   if (!tf_builder_->transform_to_ik_frame(pick_approach, pick_approach_ik) ||
       !tf_builder_->transform_to_ik_frame(pick_grasp, pick_grasp_ik) ||
       !tf_builder_->transform_to_ik_frame(pick_retreat, pick_retreat_ik))
@@ -444,12 +509,29 @@ bool Executor::execute_move_sequence(const geometry_msgs::msg::Pose & pick_appro
   geometry_msgs::msg::Pose place_grasp_ik;
   geometry_msgs::msg::Pose place_retreat_ik;
 
+  check_workspace("place approach", place_approach);
+  check_workspace("place grasp", place_grasp);
+  check_workspace("place retreat", place_retreat);
+  if (dry_run_) {
+    RCLCPP_INFO(get_logger(),
+                "[Dry-run] Place poses (world): approach=%s grasp=%s retreat=%s",
+                tf_format::pose_to_string(place_approach).c_str(),
+                tf_format::pose_to_string(place_grasp).c_str(),
+                tf_format::pose_to_string(place_retreat).c_str());
+  }
+
   if (!tf_builder_->transform_to_ik_frame(place_approach, place_approach_ik) ||
       !tf_builder_->transform_to_ik_frame(place_grasp, place_grasp_ik) ||
       !tf_builder_->transform_to_ik_frame(place_retreat, place_retreat_ik))
   {
     RCLCPP_ERROR(get_logger(), "Failed to transform place poses to IK base frame.");
     return false;
+  }
+
+  if (dry_run_) {
+    RCLCPP_WARN(get_logger(),
+                "[Dry-run] Skipping execution. Pick and place poses planned (IK) successfully.");
+    return true;
   }
 
   RCLCPP_INFO(get_logger(), "[Pick] Approach...");
@@ -555,6 +637,16 @@ bool Executor::move_with_z_fallback(geometry_msgs::msg::Pose & pose, const char 
   RCLCPP_ERROR(get_logger(), "IK failed for %s after %d fallback attempts.",
                label, attempts);
   return false;
+}
+
+bool Executor::pose_within_workspace(const geometry_msgs::msg::Pose & pose) const
+{
+  if (workspace_radius_ <= 0.0) {
+    return true;
+  }
+
+  double r = std::hypot(pose.position.x, pose.position.y);
+  return r <= workspace_radius_;
 }
 
 } // namespace action_module
