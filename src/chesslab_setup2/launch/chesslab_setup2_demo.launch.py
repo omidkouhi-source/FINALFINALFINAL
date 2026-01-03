@@ -42,36 +42,12 @@ def generate_launch_description():
     # UR Arguments
     ur_type = LaunchConfiguration("ur_type", default='ur3')
 
-    publish_camera_tf = LaunchConfiguration('publish_camera_tf', default='false')
-    camera_tf_parent = LaunchConfiguration('camera_tf_parent', default='world')
-    camera_tf_child = LaunchConfiguration('camera_tf_child', default='camera_color_optical_frame')
-    camera_tf_x = LaunchConfiguration('camera_tf_x', default='-0.021')
-    camera_tf_y = LaunchConfiguration('camera_tf_y', default='-0.290')
-    camera_tf_z = LaunchConfiguration('camera_tf_z', default='0.529')
-    camera_tf_qx = LaunchConfiguration('camera_tf_qx', default='-0.365081')
-    camera_tf_qy = LaunchConfiguration('camera_tf_qy', default='0.365047')
-    camera_tf_qz = LaunchConfiguration('camera_tf_qz', default='0.605609')
-    camera_tf_qw = LaunchConfiguration('camera_tf_qw', default='0.605552')
-
     tf_chess_frame = Node(
         package = "tf2_ros", 
         name="tf_chessboard_in_world",
         executable = "static_transform_publisher",
         output="screen",
         arguments = ["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "chess_frame"]
-    )
-
-    tf_camera = Node(
-        condition=IfCondition(publish_camera_tf),
-        package = "tf2_ros", 
-        name="tf_camera_in_world",
-        executable = "static_transform_publisher",
-        output="screen",
-        arguments = [
-            camera_tf_x, camera_tf_y, camera_tf_z,
-            camera_tf_qx, camera_tf_qy, camera_tf_qz, camera_tf_qw,
-            camera_tf_parent, camera_tf_child
-        ]
     )
 
     chesslab_setup2_demo = Node(
@@ -113,10 +89,8 @@ def generate_launch_description():
     ld =  LaunchDescription()
 
     ld.add_action(tf_chess_frame)
-    ld.add_action(tf_camera)
     ld.add_action(chesslab_setup2_demo)
     ld.add_action(ur_visualization)
     ld.add_action(kinenikros2)
 
     return ld
-
