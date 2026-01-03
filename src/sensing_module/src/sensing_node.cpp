@@ -299,10 +299,13 @@ void SensingNode::getPieceLocationCallback(
   if (getPieceTransform(piece_id, transform)) {
     response->pose = transformToPose(transform);
     
-    // Store raw detected pose for debug output
-    double raw_x = response->pose.position.x;
-    double raw_y = response->pose.position.y;
-    double raw_z = response->pose.position.z;
+    // Store raw pose for debug output (only when needed)
+    double raw_x, raw_y, raw_z;
+    if (debug_mode_) {
+      raw_x = response->pose.position.x;
+      raw_y = response->pose.position.y;
+      raw_z = response->pose.position.z;
+    }
     
     // Apply marker-to-grasp offset
     // This converts from the ArUco marker center to the actual grasp point on the piece
