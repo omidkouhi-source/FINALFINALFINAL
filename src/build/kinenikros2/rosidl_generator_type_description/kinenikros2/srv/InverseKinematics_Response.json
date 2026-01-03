@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kinenikros2/srv/InverseKinematics_Response",
+      "fields": [
+        {
+          "name": "ik_solution",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "kinenikros2/msg/InverseKinematics"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "status",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "kinenikros2/msg/InverseKinematics",
+        "fields": [
+          {
+            "name": "ik",
+            "type": {
+              "type_id": 155,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "kinenikros2/srv/InverseKinematics_Response",
+      "hash_string": "RIHS01_6dad89fff2ce6a151e1e54130492f44777ac0e5fdb4683b0c922d0b13de8baed"
+    },
+    {
+      "type_name": "kinenikros2/msg/InverseKinematics",
+      "hash_string": "RIHS01_4d703c8f15fe1084a7bfe93c955038fed4ae8b8343ccf8d95d8bcd1eba8dcf42"
+    }
+  ]
+}

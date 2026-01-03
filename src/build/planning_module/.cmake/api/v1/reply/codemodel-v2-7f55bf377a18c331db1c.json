@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-eec4c3a0a20531f4711a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "planning_module",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_service_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_service_node-3f0d4b053f3a3aa99334.json",
+					"name" : "pick_service_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "place_service_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-place_service_node-d33ba72b7284ab23072c.json",
+					"name" : "place_service_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planning_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning_core-1ef7c5c491d83db3efa7.json",
+					"name" : "planning_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planning_module_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning_module_uninstall-02f657d90637c60a9b76.json",
+					"name" : "planning_module_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4b6c23b0e3a79cf935ed.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module",
+		"source" : "/home/omid/data/colcon_ws1FW/src/final_work/src/planning_module"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

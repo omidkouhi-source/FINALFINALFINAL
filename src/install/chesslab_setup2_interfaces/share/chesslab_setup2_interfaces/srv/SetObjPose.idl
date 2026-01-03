@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chesslab_setup2_interfaces/srv/SetObjPose.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module chesslab_setup2_interfaces {
+  module srv {
+    struct SetObjPose_Request {
+      int16 objid;
+
+      geometry_msgs::msg::Pose p;
+    };
+    struct SetObjPose_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

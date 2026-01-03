@@ -1,0 +1,7 @@
+{
+  "package_name": "robotiq_85_msgs",
+  "non_idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper/robotiq_85_msgs:msg/GripperCmd.msg",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper/robotiq_85_msgs:msg/GripperStat.msg"
+  ]
+}

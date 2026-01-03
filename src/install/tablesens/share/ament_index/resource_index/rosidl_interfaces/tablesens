@@ -1,0 +1,6 @@
+msg/MarkerFix.idl
+msg/MarkerFix.msg
+msg/MarkerFixList.idl
+msg/MarkerFixList.msg
+srv/ConfigureFromService.idl
+srv/ConfigureFromService.srv

@@ -1,0 +1,9 @@
+# Service to validate a chess action query
+# Request: chess action (from_cell, to_cell)
+string from_cell
+string to_cell
+---
+# Response: validation result
+bool success
+bool is_valid
+string message

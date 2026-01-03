@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/robotiq_85_gripper_server__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "robotiq_85_gripper_server::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "robotiq_85_gripper_server__py::@74a1572767adb879926b",
+	"name" : "robotiq_85_gripper_server__py",
+	"paths" : 
+	{
+		"build" : "robotiq_85_gripper_server__py",
+		"source" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/robotiq_85_gripper_server__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/robotiq_85_gripper_server__py/CMakeFiles/robotiq_85_gripper_server__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/robotiq_85_gripper_server__py/CMakeFiles/robotiq_85_gripper_server__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/rosidl_generator_py/robotiq_85_gripper_server/_robotiq_85_gripper_server_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

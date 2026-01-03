@@ -1,0 +1,8 @@
+{
+  "package_name": "robotiq_85_gripper_server",
+  "non_idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server:srv/GripperOrder.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server:srv/GripperOpen.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server:srv/GripperClose.srv"
+  ]
+}

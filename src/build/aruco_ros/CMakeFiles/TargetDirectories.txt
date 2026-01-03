@@ -1,0 +1,13 @@
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/uninstall.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/aruco_ros_uninstall.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/aruco_ros_utils.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/single.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/double.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/marker_publisher.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/test.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/edit_cache.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/rebuild_cache.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/list_install_components.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/install.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/install/local.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_ros/CMakeFiles/install/strip.dir

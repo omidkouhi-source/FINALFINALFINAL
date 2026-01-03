@@ -1,0 +1,315 @@
+[0.057s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/action_module -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module
+[0.214s] -- The C compiler identification is GNU 13.3.0
+[0.371s] -- The CXX compiler identification is GNU 13.3.0
+[0.422s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.715s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.716s] -- Detecting C compile features
+[0.717s] -- Detecting C compile features - done
+[0.744s] -- Detecting CXX compiler ABI info
+[1.024s] -- Detecting CXX compiler ABI info - done
+[1.060s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.061s] -- Detecting CXX compile features
+[1.063s] -- Detecting CXX compile features - done
+[1.078s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.657s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.074s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.211s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.262s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.611s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.622s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.915s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.990s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.319s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[3.427s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.784s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.837s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.840s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.840s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.853s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.919s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[3.981s] -- Found kinenikros2: 0.0.1 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/share/kinenikros2/cmake)
+[4.048s] -- Found planning_module: 0.1.0 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/cmake)
+[4.144s] -- Found robotiq_85_gripper_server: 0.0.0 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake)
+[4.235s] -- Found chesslab_setup2_interfaces: 0.0.0 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake)
+[4.347s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.427s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.441s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.959s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.776s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.795s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.295s] -- Found PythonExtra: /usr/bin/python3  
+[11.811s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[11.996s] -- Configuring done (11.9s)
+[12.201s] -- Generating done (0.1s)
+[12.269s] -- Build files have been written to: /home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module
+[12.305s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/action_module -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module
+[12.308s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module -- -j8 -l8
+[12.493s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[13.236s] [  2%] Built target action_module__rosidl_generator_type_description
+[13.306s] [  5%] [32mBuilding CXX object CMakeFiles/action_module_core.dir/src/ik_mover.cpp.o[0m
+[34.216s] [  7%] [32mBuilding CXX object CMakeFiles/action_module_core.dir/src/tf_grasp_builder.cpp.o[0m
+[51.131s] [ 10%] [32m[1mLinking CXX shared library libaction_module_core.so[0m
+[52.142s] [ 10%] Built target action_module_core
+[52.164s] [ 12%] [34m[1mGenerating C code for ROS interfaces[0m
+[52.185s] [ 15%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[52.203s] [ 15%] Built target ament_cmake_python_copy_action_module
+[52.733s] running egg_info
+[52.735s] creating action_module.egg-info
+[52.787s] writing action_module.egg-info/PKG-INFO
+[52.787s] writing dependency_links to action_module.egg-info/dependency_links.txt
+[52.787s] writing top-level names to action_module.egg-info/top_level.txt
+[52.788s] writing manifest file 'action_module.egg-info/SOURCES.txt'
+[52.841s] [ 15%] Built target action_module__cpp
+[52.887s] [ 20%] [32mBuilding C object CMakeFiles/action_module__rosidl_generator_c.dir/rosidl_generator_c/action_module/srv/detail/move_piece__description.c.o[0m
+[52.887s] [ 20%] [32mBuilding C object CMakeFiles/action_module__rosidl_generator_c.dir/rosidl_generator_c/action_module/srv/detail/move_piece__functions.c.o[0m
+[52.888s] [ 23%] [32mBuilding C object CMakeFiles/action_module__rosidl_generator_c.dir/rosidl_generator_c/action_module/srv/detail/move_piece__type_support.c.o[0m
+[52.955s] reading manifest file 'action_module.egg-info/SOURCES.txt'
+[52.956s] writing manifest file 'action_module.egg-info/SOURCES.txt'
+[53.015s] [ 23%] Built target ament_cmake_python_build_action_module_egg
+[53.050s] [ 25%] [32m[1mLinking C shared library libaction_module__rosidl_generator_c.so[0m
+[53.125s] [ 25%] Built target action_module__rosidl_generator_c
+[53.149s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[53.150s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[53.155s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[53.156s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[53.156s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[53.158s] [ 41%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[53.768s] [ 46%] [32mBuilding CXX object CMakeFiles/action_module__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_module/srv/detail/move_piece__type_support.cpp.o[0m
+[53.768s] [ 46%] [32mBuilding C object CMakeFiles/action_module__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_module/srv/detail/move_piece__type_support.c.o[0m
+[53.872s] [ 48%] [32m[1mLinking C shared library libaction_module__rosidl_typesupport_introspection_c.so[0m
+[53.941s] [ 48%] Built target action_module__rosidl_typesupport_introspection_c
+[54.026s] [ 51%] [32mBuilding CXX object CMakeFiles/action_module__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_module/srv/move_piece__type_support.cpp.o[0m
+[54.033s] [ 53%] [32mBuilding CXX object CMakeFiles/action_module__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_module/srv/move_piece__type_support.cpp.o[0m
+[54.185s] [ 56%] [32m[1mLinking CXX shared library libaction_module__rosidl_typesupport_c.so[0m
+[54.264s] [ 58%] [32mBuilding CXX object CMakeFiles/action_module__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_module/srv/detail/dds_fastrtps/move_piece__type_support.cpp.o[0m
+[54.267s] [ 61%] [32mBuilding CXX object CMakeFiles/action_module__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_module/srv/detail/move_piece__type_support_c.cpp.o[0m
+[54.285s] [ 61%] Built target action_module__rosidl_typesupport_c
+[54.949s] [ 64%] [32m[1mLinking CXX shared library libaction_module__rosidl_typesupport_introspection_cpp.so[0m
+[55.196s] [ 64%] Built target action_module__rosidl_typesupport_introspection_cpp
+[55.241s] [ 66%] [32m[1mLinking CXX shared library libaction_module__rosidl_typesupport_cpp.so[0m
+[55.400s] [ 66%] Built target action_module__rosidl_typesupport_cpp
+[55.447s] [ 69%] [32mBuilding CXX object CMakeFiles/executor.dir/src/executor.cpp.o[0m
+[55.552s] [ 71%] [32m[1mLinking CXX shared library libaction_module__rosidl_typesupport_fastrtps_c.so[0m
+[55.705s] [ 71%] Built target action_module__rosidl_typesupport_fastrtps_c
+[55.835s] [ 74%] [32m[1mLinking CXX shared library libaction_module__rosidl_typesupport_fastrtps_cpp.so[0m
+[56.020s] [ 74%] Built target action_module__rosidl_typesupport_fastrtps_cpp
+[56.066s] [ 74%] Built target action_module
+[56.112s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[56.902s] [ 76%] Built target action_module__py
+[56.951s] [ 79%] [32mBuilding C object CMakeFiles/action_module__rosidl_generator_py.dir/rosidl_generator_py/action_module/srv/_move_piece_s.c.o[0m
+[57.279s] [ 82%] [32m[1mLinking C shared library libaction_module__rosidl_generator_py.so[0m
+[57.375s] [ 82%] Built target action_module__rosidl_generator_py
+[57.422s] [ 89%] [32mBuilding C object CMakeFiles/action_module_s__rosidl_typesupport_c.dir/rosidl_generator_py/action_module/_action_module_s.ep.rosidl_typesupport_c.c.o[0m
+[57.422s] [ 89%] [32mBuilding C object CMakeFiles/action_module_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/action_module/_action_module_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[57.422s] [ 89%] [32mBuilding C object CMakeFiles/action_module_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/action_module/_action_module_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[57.684s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/action_module/action_module_s__rosidl_typesupport_fastrtps_c.so[0m
+[57.744s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/action_module/action_module_s__rosidl_typesupport_introspection_c.so[0m
+[57.747s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/action_module/action_module_s__rosidl_typesupport_c.so[0m
+[57.759s] [ 97%] Built target action_module_s__rosidl_typesupport_fastrtps_c
+[57.814s] [ 97%] Built target action_module_s__rosidl_typesupport_introspection_c
+[57.814s] [ 97%] Built target action_module_s__rosidl_typesupport_c
+[61.005s] [01m[K/home/omid/data/colcon_ws1FW/src/final_work/src/action_module/src/executor.cpp:[m[K In constructor ‘[01m[Kaction_module::Executor::[01;32m[KExecutor[m[K()[m[K’:
+[61.005s] [01m[K/home/omid/data/colcon_ws1FW/src/final_work/src/action_module/src/executor.cpp:87:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = chesslab_setup2_interfaces::srv::GetPieceLocation; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<chesslab_setup2_interfaces::srv::GetPieceLocation> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[61.006s]    87 |  [01;35m[Kcreate_client<chesslab_setup2_interfaces::srv::GetPieceLocation>([m[K
+[61.006s]       |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[61.006s] 
+[61.006s]    88 | [01;35m[K   "/sensing_module/get_piece_location",[m[K
+[61.006s]       |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+[61.006s] 
+[61.006s]    89 | [01;35m[K   rmw_qos_profile_services_default,[m[K
+[61.007s]       |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                              
+[61.007s] 
+[61.007s]    90 | [01;35m[K   client_group_)[m[K;
+[61.007s]       |    [01;35m[K~~~~~~~~~~~~~~[m[K                                                 
+[61.007s] 
+[61.007s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+[61.007s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[61.008s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[61.008s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[61.008s]                  from [01m[K/home/omid/data/colcon_ws1FW/src/final_work/src/action_module/src/executor.cpp:1[m[K:
+[61.008s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:159:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[61.008s]   159 | [01;36m[KNode[m[K::create_client(
+[61.008s]       | [01;36m[K^~~~[m[K
+[61.016s] [01m[K/home/omid/data/colcon_ws1FW/src/final_work/src/action_module/src/executor.cpp:95:70:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = action_module::srv::MovePiece; CallbackT = std::_Bind<void (action_module::Executor::*(action_module::Executor*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<action_module::srv::MovePiece_Request_<std::allocator<void> > >, std::shared_ptr<action_module::srv::MovePiece_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<action_module::srv::MovePiece> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[61.017s]    95 | ve_piece_service_ = [01;35m[Kcreate_service<action_module::srv::MovePiece>([m[K
+[61.017s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[61.017s] 
+[61.017s]    96 | [01;35m[K"move_piece",[m[K
+[61.017s]       | [01;35m[K~~~~~~~~~~~~~[m[K                                                     
+[61.017s] 
+[61.017s]    97 | [01;35m[Kstd::bind(&Executor::handle_move_piece, this,[m[K
+[61.017s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     
+[61.018s] 
+[61.018s]    98 | [01;35m[K          std::placeholders::_1, std::placeholders::_2),[m[K
+[61.018s]       |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K          
+[61.018s] 
+[61.018s]    99 | [01;35m[Krmw_qos_profile_services_default,[m[K
+[61.018s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                 
+[61.018s] 
+[61.019s]   100 | [01;35m[Kservice_group_)[m[K;
+[61.019s]       | [01;35m[K~~~~~~~~~~~~~~~[m[K                                                   
+[61.019s] 
+[61.019s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:192:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[61.019s]   192 | [01;36m[KNode[m[K::create_service(
+[61.019s]       | [01;36m[K^~~~[m[K
+[68.222s] [100%] [32m[1mLinking CXX executable executor[0m
+[69.333s] [100%] Built target executor
+[69.358s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module -- -j8 -l8
+[69.360s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module
+[69.379s] -- Install configuration: ""
+[69.379s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/ament_index/resource_index/rosidl_interfaces/action_module
+[69.380s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/srv/MovePiece.json
+[69.380s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module
+[69.380s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv
+[69.381s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/move_piece.h
+[69.381s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail
+[69.381s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__type_support.c
+[69.381s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__description.c
+[69.381s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__type_support.h
+[69.382s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__functions.c
+[69.382s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__functions.h
+[69.382s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__struct.h
+[69.382s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg
+[69.383s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg/rosidl_generator_c__visibility_control.h
+[69.383s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/environment/library_path.sh
+[69.383s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/environment/library_path.dsv
+[69.384s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_generator_c.so
+[69.385s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_generator_c.so" to ""
+[69.385s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module
+[69.385s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv
+[69.385s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail
+[69.386s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__rosidl_typesupport_fastrtps_c.h
+[69.386s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg
+[69.386s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[69.386s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_fastrtps_c.so
+[69.387s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_fastrtps_c.so" to ""
+[69.387s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module
+[69.387s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv
+[69.387s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/move_piece.hpp
+[69.388s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail
+[69.388s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__traits.hpp
+[69.388s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__struct.hpp
+[69.389s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__type_support.hpp
+[69.389s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__builder.hpp
+[69.389s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg
+[69.389s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg/rosidl_generator_cpp__visibility_control.hpp
+[69.389s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module
+[69.390s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv
+[69.390s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail
+[69.390s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__rosidl_typesupport_fastrtps_cpp.hpp
+[69.390s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/dds_fastrtps
+[69.390s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg
+[69.390s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[69.391s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_fastrtps_cpp.so
+[69.391s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_fastrtps_cpp.so" to ""
+[69.391s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module
+[69.391s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv
+[69.391s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail
+[69.392s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__rosidl_typesupport_introspection_c.h
+[69.392s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__type_support.c
+[69.392s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg
+[69.392s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[69.392s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_introspection_c.so
+[69.392s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_introspection_c.so" to ""
+[69.393s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_c.so
+[69.393s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_c.so" to ""
+[69.394s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module
+[69.394s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv
+[69.394s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail
+[69.394s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__type_support.cpp
+[69.394s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/action_module/srv/detail/move_piece__rosidl_typesupport_introspection_cpp.hpp
+[69.394s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_introspection_cpp.so
+[69.395s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_introspection_cpp.so" to ""
+[69.395s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_cpp.so
+[69.396s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_typesupport_cpp.so" to ""
+[69.396s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/environment/pythonpath.sh
+[69.396s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/environment/pythonpath.dsv
+[69.396s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module-0.1.0-py3.12.egg-info
+[69.397s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module-0.1.0-py3.12.egg-info/SOURCES.txt
+[69.397s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module-0.1.0-py3.12.egg-info/PKG-INFO
+[69.397s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module-0.1.0-py3.12.egg-info/top_level.txt
+[69.397s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module-0.1.0-py3.12.egg-info/dependency_links.txt
+[69.397s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module
+[69.398s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/action_module_s__rosidl_typesupport_fastrtps_c.so
+[69.398s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/srv
+[69.398s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/srv/_move_piece.py
+[69.398s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/srv/__init__.py
+[69.398s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/srv/_move_piece_s.c
+[69.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/action_module_s__rosidl_typesupport_c.so
+[69.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/_action_module_s.ep.rosidl_typesupport_c.c
+[69.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/_action_module_s.ep.rosidl_typesupport_fastrtps_c.c
+[69.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/__init__.py
+[69.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/action_module_s__rosidl_typesupport_introspection_c.so
+[69.400s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/_action_module_s.ep.rosidl_typesupport_introspection_c.c
+[69.492s] Listing '/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module'...
+[69.492s] Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/__init__.py'...
+[69.493s] Listing '/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/srv'...
+[69.493s] Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/srv/__init__.py'...
+[69.493s] Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/srv/_move_piece.py'...
+[69.505s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/action_module_s__rosidl_typesupport_fastrtps_c.so
+[69.505s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/action_module_s__rosidl_typesupport_fastrtps_c.so" to ""
+[69.505s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/action_module_s__rosidl_typesupport_introspection_c.so
+[69.506s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/action_module_s__rosidl_typesupport_introspection_c.so" to ""
+[69.506s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/action_module_s__rosidl_typesupport_c.so
+[69.507s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/python3.12/site-packages/action_module/action_module_s__rosidl_typesupport_c.so" to ""
+[69.507s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_generator_py.so
+[69.508s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module__rosidl_generator_py.so" to ""
+[69.508s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/srv/MovePiece.idl
+[69.508s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/srv/MovePiece.srv
+[69.509s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/action_module/executor
+[69.514s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/action_module/executor" to ""
+[69.514s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module_core.so
+[69.528s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/lib/libaction_module_core.so" to ""
+[69.528s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include
+[69.529s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module
+[69.529s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/executor.hpp
+[69.529s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/ik_mover.hpp
+[69.529s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/include/action_module/tf_grasp_builder.hpp
+[69.530s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module
+[69.530s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/action.launch.py
+[69.530s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module
+[69.530s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/MovePiece.srv
+[69.530s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/ament_index/resource_index/package_run_dependencies/action_module
+[69.531s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/ament_index/resource_index/parent_prefix_path/action_module
+[69.531s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/environment/ament_prefix_path.sh
+[69.531s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/environment/ament_prefix_path.dsv
+[69.531s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/environment/path.sh
+[69.531s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/environment/path.dsv
+[69.532s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/local_setup.bash
+[69.532s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/local_setup.sh
+[69.532s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/local_setup.zsh
+[69.533s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/local_setup.dsv
+[69.533s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/package.dsv
+[69.533s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/ament_index/resource_index/packages/action_module
+[69.534s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/export_action_module__rosidl_generator_cExport.cmake
+[69.534s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/export_action_module__rosidl_generator_cExport-noconfig.cmake
+[69.535s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/export_action_module__rosidl_typesupport_fastrtps_cExport.cmake
+[69.535s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/export_action_module__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[69.535s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/export_action_module__rosidl_generator_cppExport.cmake
+[69.536s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/export_action_module__rosidl_typesupport_fastrtps_cppExport.cmake
+[69.536s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/export_action_module__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[69.536s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_module__rosidl_typesupport_introspection_cExport.cmake
+[69.537s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_module__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[69.537s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_module__rosidl_typesupport_cExport.cmake
+[69.537s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_module__rosidl_typesupport_cExport-noconfig.cmake
+[69.538s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_module__rosidl_typesupport_introspection_cppExport.cmake
+[69.538s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_module__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[69.538s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_module__rosidl_typesupport_cppExport.cmake
+[69.539s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_module__rosidl_typesupport_cppExport-noconfig.cmake
+[69.539s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/export_action_module__rosidl_generator_pyExport.cmake
+[69.539s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/export_action_module__rosidl_generator_pyExport-noconfig.cmake
+[69.540s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/rosidl_cmake-extras.cmake
+[69.540s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/ament_cmake_export_dependencies-extras.cmake
+[69.540s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/ament_cmake_export_include_directories-extras.cmake
+[69.540s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/ament_cmake_export_libraries-extras.cmake
+[69.541s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/ament_cmake_export_targets-extras.cmake
+[69.541s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[69.541s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[69.541s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_moduleConfig.cmake
+[69.541s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/cmake/action_moduleConfig-version.cmake
+[69.542s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/action_module/share/action_module/package.xml
+[69.546s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module

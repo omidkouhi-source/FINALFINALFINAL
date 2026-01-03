@@ -1,0 +1,4 @@
+msg/InverseKinematics.idl
+msg/InverseKinematics.msg
+srv/InverseKinematics.idl
+srv/InverseKinematics.srv

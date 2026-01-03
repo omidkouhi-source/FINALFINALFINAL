@@ -1,0 +1,6 @@
+{
+  "package_name": "action_module",
+  "non_idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/action_module:srv/MovePiece.srv"
+  ]
+}

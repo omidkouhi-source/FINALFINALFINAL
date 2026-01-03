@@ -1,0 +1,10 @@
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:msg/InverseKinematicsSolution.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:srv/InverseKinematicsSimple.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:srv/SetObjPose.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:srv/SetRobConf.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:srv/AttachObj.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:srv/DetachObj.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:srv/DetectPiecePoses.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:srv/GetPieceLocation.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:srv/VerifyPickPlace.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces/rosidl_adapter/chesslab_setup2_interfaces:srv/ValidateChessAction.idl

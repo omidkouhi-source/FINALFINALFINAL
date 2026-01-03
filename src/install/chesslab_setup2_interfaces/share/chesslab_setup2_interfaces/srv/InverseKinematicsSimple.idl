@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chesslab_setup2_interfaces/srv/InverseKinematicsSimple.srv
+// generated code does not contain a copyright notice
+
+#include "chesslab_setup2_interfaces/msg/InverseKinematicsSolution.idl"
+#include "geometry_msgs/msg/Pose.idl"
+
+module chesslab_setup2_interfaces {
+  module srv {
+    struct InverseKinematicsSimple_Request {
+      geometry_msgs::msg::Pose pose;
+    };
+    struct InverseKinematicsSimple_Response {
+      sequence<chesslab_setup2_interfaces::msg::InverseKinematicsSolution> ik_solution;
+
+      boolean status;
+    };
+  };
+};

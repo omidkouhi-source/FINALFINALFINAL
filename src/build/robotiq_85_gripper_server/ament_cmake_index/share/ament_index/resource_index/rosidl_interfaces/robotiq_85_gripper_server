@@ -1,0 +1,6 @@
+srv/GripperClose.idl
+srv/GripperClose.srv
+srv/GripperOpen.idl
+srv/GripperOpen.srv
+srv/GripperOrder.idl
+srv/GripperOrder.srv

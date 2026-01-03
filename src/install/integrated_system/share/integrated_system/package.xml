@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>integrated_system</name>
+  <version>1.0.0</version>
+  <description>
+    Complete integrated system for chess robot - combines sensing, planning, and action modules
+  </description>
+
+  <maintainer email="team@example.com">Chess Robot Team</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>sensing_module</exec_depend>
+  <exec_depend>planning_module</exec_depend>
+  <exec_depend>action_module</exec_depend>
+  <exec_depend>chesslab_setup2</exec_depend>
+  <exec_depend>chesslab_setup2_interfaces</exec_depend>
+  <exec_depend>aruco_broadcaster</exec_depend>
+  <exec_depend>kinenikros2</exec_depend>
+  <exec_depend>robotiq_85_gripper_server</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,39 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/msg/inverse_kinematics_solution__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/msg/inverse_kinematics_solution__type_support.cpp.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/attach_obj__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/attach_obj__type_support.cpp.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/detach_obj__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/detach_obj__type_support.cpp.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/detect_piece_poses__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/detect_piece_poses__type_support.cpp.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/get_piece_location__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/get_piece_location__type_support.cpp.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/inverse_kinematics_simple__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/inverse_kinematics_simple__type_support.cpp.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/set_obj_pose__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/set_obj_pose__type_support.cpp.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/set_rob_conf__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/set_rob_conf__type_support.cpp.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/validate_chess_action__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/validate_chess_action__type_support.cpp.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/verify_pick_place__type_support.cpp.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/verify_pick_place__type_support.cpp.o.d"
+  "libchesslab_setup2_interfaces__rosidl_typesupport_c.pdb"
+  "libchesslab_setup2_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/msg/inverse_kinematics_solution__type_support.cpp"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/srv/attach_obj__type_support.cpp"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/srv/detach_obj__type_support.cpp"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/srv/detect_piece_poses__type_support.cpp"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/srv/get_piece_location__type_support.cpp"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/srv/inverse_kinematics_simple__type_support.cpp"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/srv/set_obj_pose__type_support.cpp"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/srv/set_rob_conf__type_support.cpp"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/srv/validate_chess_action__type_support.cpp"
+  "rosidl_typesupport_c/chesslab_setup2_interfaces/srv/verify_pick_place__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

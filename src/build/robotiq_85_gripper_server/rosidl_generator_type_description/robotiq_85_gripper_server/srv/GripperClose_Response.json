@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robotiq_85_gripper_server/srv/GripperClose_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robotiq_85_gripper_server/srv/GripperClose_Response",
+      "hash_string": "RIHS01_5f75f7b88338dcee9af4dca1aca78a53a28fe62ba6c29cefbd272139b6b140ad"
+    }
+  ]
+}

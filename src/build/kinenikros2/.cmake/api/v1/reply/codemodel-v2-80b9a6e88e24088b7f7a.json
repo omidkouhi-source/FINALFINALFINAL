@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bc2ee468b3ba4a170d08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "kinenikros2__py",
+					"jsonFile" : "directory-kinenikros2__py-673eae558d15ce74fad7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/kinenikros2/kinenikros2__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "kinenikros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kinenikros2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kinenikros2_egg-4fe71bb6a481a60b6b18.json",
+					"name" : "ament_cmake_python_build_kinenikros2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_kinenikros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_kinenikros2-a9077dd069f659ba8865.json",
+					"name" : "ament_cmake_python_copy_kinenikros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenik_srv_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenik_srv_server-4bc1eef2f267b351314a.json",
+					"name" : "kinenik_srv_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2-a5e90cde289c9246e80c.json",
+					"name" : "kinenikros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__cpp-6094dea9d27489983fca.json",
+					"name" : "kinenikros2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kinenikros2__py::@521e777fd16d83e69c7d",
+					"jsonFile" : "target-kinenikros2__py-010083d937f6159f9e67.json",
+					"name" : "kinenikros2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__rosidl_generator_c-b8258d6dafde2f52dcdd.json",
+					"name" : "kinenikros2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__rosidl_generator_py-cb128fb4191313480eb8.json",
+					"name" : "kinenikros2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__rosidl_generator_type_description-401edac2669ec707f340.json",
+					"name" : "kinenikros2__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__rosidl_typesupport_c-9e101ddcf22f2ecf0e52.json",
+					"name" : "kinenikros2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__rosidl_typesupport_cpp-3432c2bc9221855869fc.json",
+					"name" : "kinenikros2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__rosidl_typesupport_fastrtps_c-e9a60e044615ba8bb51d.json",
+					"name" : "kinenikros2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__rosidl_typesupport_fastrtps_cpp-8e8700e77d36eb1fef8c.json",
+					"name" : "kinenikros2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__rosidl_typesupport_introspection_c-d52fab08de4e93731d8d.json",
+					"name" : "kinenikros2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2__rosidl_typesupport_introspection_cpp-f75e22bb46360ea6779b.json",
+					"name" : "kinenikros2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2_s__rosidl_typesupport_c-3c4e7d41bcbad713da2f.json",
+					"name" : "kinenikros2_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2_s__rosidl_typesupport_fastrtps_c-3432d586fda0d65210d8.json",
+					"name" : "kinenikros2_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2_s__rosidl_typesupport_introspection_c-0fd48080f9f842a30522.json",
+					"name" : "kinenikros2_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinenikros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinenikros2_uninstall-c3032d01b6f915ed25d2.json",
+					"name" : "kinenikros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bd726409588379c75eca.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/kinenikros2",
+		"source" : "/home/omid/data/colcon_ws1FW/src/final_work/src/kinenikros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,5 @@
+int32 aruco_id
+string target_square
+---
+bool success
+string message

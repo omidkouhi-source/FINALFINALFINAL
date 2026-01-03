@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from action_module/srv/MovePiece.srv
+// generated code does not contain a copyright notice
+
+
+module action_module {
+  module srv {
+    struct MovePiece_Request {
+      int32 aruco_id;
+
+      string target_square;
+    };
+    struct MovePiece_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+# Service to detect all chess pieces and set their poses in rviz
+# Request: empty (detect all pieces)
+---
+# Response: success status and number of pieces detected
+bool success
+int16 num_pieces_detected
+string message

@@ -1,0 +1,4 @@
+source;share/tablesens/local_setup.bash
+source;share/tablesens/local_setup.dsv
+source;share/tablesens/local_setup.sh
+source;share/tablesens/local_setup.zsh

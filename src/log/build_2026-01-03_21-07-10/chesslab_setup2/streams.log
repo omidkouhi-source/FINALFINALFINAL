@@ -1,0 +1,523 @@
+[0.055s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2 -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2
+[0.216s] -- The C compiler identification is GNU 13.3.0
+[0.393s] -- The CXX compiler identification is GNU 13.3.0
+[0.441s] -- Detecting C compiler ABI info
+[0.716s] -- Detecting C compiler ABI info - done
+[0.752s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.752s] -- Detecting C compile features
+[0.754s] -- Detecting C compile features - done
+[0.782s] -- Detecting CXX compiler ABI info
+[1.068s] -- Detecting CXX compiler ABI info - done
+[1.105s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.105s] -- Detecting CXX compile features
+[1.107s] -- Detecting CXX compile features - done
+[1.123s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.717s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.116s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.326s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.401s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.962s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.981s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.309s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.379s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.461s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.798s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[4.183s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.259s] -- Found ur_description: 3.5.0 (/opt/ros/jazzy/share/ur_description/cmake)
+[4.261s] -- Found robotiq_85_description: 1.0.1 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/cmake)
+[4.263s] -- Found robotiq_85_gz: 0.0.0 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz/share/robotiq_85_gz/cmake)
+[4.266s] -- Found chesslab_setup2_interfaces: 0.0.0 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake)
+[4.378s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[4.768s] -- Found robotiq_85_gripper_server: 0.0.0 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake)
+[4.846s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.263s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.264s] -- Configured cppcheck include dirs: /home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2/include;$<BUILD_INTERFACE:/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2/include>
+[5.264s] -- Configured cppcheck exclude dirs and/or files: 
+[5.275s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.276s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.295s] -- Added test 'lint_cmake' to check CMake code style
+[5.306s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.373s] -- Added test 'uncrustify' to check C / C++ code style
+[5.373s] -- Configured uncrustify additional arguments: 
+[5.384s] -- Added test 'xmllint' to check XML markup files
+[5.393s] -- Configuring done (5.3s)
+[5.456s] -- Generating done (0.0s)
+[5.473s] -- Build files have been written to: /home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2
+[5.495s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2 -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2
+[5.498s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2 -- -j8 -l8
+[5.642s] [ 33%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_demo.dir/src/chesslab_setup2_demo.cpp.o[0m
+[28.464s] [ 66%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_demo.dir/src/chesslab.cpp.o[0m
+[35.109s] [100%] [32m[1mLinking CXX executable chesslab_setup2_demo[0m
+[35.974s] [100%] Built target chesslab_setup2_demo
+[35.997s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2 -- -j8 -l8
+[36.001s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2
+[36.018s] -- Install configuration: ""
+[36.018s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/lib/chesslab_setup2/chesslab_setup2_demo
+[36.026s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/lib/chesslab_setup2/chesslab_setup2_demo" to ""
+[36.026s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//launch
+[36.027s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//launch/chesslab_gz.launch.py
+[36.027s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//launch/chesslab_view.launch.py
+[36.027s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//launch/chesslab_setup2_demo.launch.py
+[36.027s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models
+[36.028s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7
+[36.028s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes
+[36.028s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/front-307.png
+[36.028s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/aruco-307.svg
+[36.028s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/aruco-307.png
+[36.029s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/front-307.svg
+[36.029s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/pawnW7.dae
+[36.029s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/model.config
+[36.029s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/pawnW7.sdf
+[36.030s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard
+[36.030s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes
+[36.030s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/chessboard-esaii.svg
+[36.030s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/chessboard-A2.svg
+[36.031s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/flat_chessboard.dae
+[36.031s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/chessboard-esaii.png
+[36.031s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/chessboard-esaii.pdf
+[36.031s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/flat_chessboard.sdf
+[36.032s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/model.config
+[36.032s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4
+[36.032s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/pawnB4.sdf
+[36.032s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes
+[36.033s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/aruco-204.svg
+[36.033s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/front-204.svg
+[36.033s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/front-204.png
+[36.033s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/aruco-204.png
+[36.034s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/pawnB4.dae
+[36.034s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/model.config
+[36.034s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1
+[36.034s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/meshes
+[36.034s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/meshes/aruco-211.png
+[36.035s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/meshes/aruco-211.svg
+[36.035s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/meshes/horseB1.dae
+[36.035s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/model.config
+[36.035s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/horseB1.sdf
+[36.036s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2
+[36.036s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/meshes
+[36.036s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/meshes/aruco-210.png
+[36.036s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/meshes/aruco-210.svg
+[36.036s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/meshes/towerB2.dae
+[36.037s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/towerB2.sdf
+[36.037s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/model.config
+[36.037s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/white-pieces-to-print.pdf
+[36.037s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2
+[36.038s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes
+[36.038s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes/aruco-212.png
+[36.038s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes/horseB2.dae
+[36.038s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes/4x4_1000-212.svg.png
+[36.039s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes/aruco-212.svg
+[36.039s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/model.config
+[36.039s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/horseB2.sdf
+[36.039s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2
+[36.039s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes
+[36.040s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/aruco-314.svg
+[36.040s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/aruco-314.png
+[36.040s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/front-314.svg
+[36.040s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/bishopW2.dae
+[36.041s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/front-314.png
+[36.041s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/model.config
+[36.041s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/bishopW2.sdf
+[36.041s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_with_support
+[36.042s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_with_support/model.sdf
+[36.042s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_with_support/model.config
+[36.042s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2
+[36.042s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/meshes
+[36.043s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/meshes/aruco-312.png
+[36.043s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/meshes/horseW2.dae
+[36.043s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/meshes/aruco-312.svg
+[36.043s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/horseW2.sdf
+[36.043s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/model.config
+[36.044s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/black-pieces-to-print.svg
+[36.044s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/black-pieces-to-print.pdf
+[36.045s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera
+[36.045s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/meshes
+[36.045s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/meshes/d435.dae
+[36.066s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/meshes/realsense.dae
+[36.066s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails
+[36.067s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails/1.png
+[36.067s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails/3.png
+[36.067s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails/2.png
+[36.067s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails/4.png
+[36.068s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials
+[36.068s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures
+[36.068s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures/RealSense_Albedo.png
+[36.069s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures/RealSense_Roughness.png
+[36.071s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures/RealSense_Normal.png
+[36.072s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures/RealSense_Metalness.png
+[36.072s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/scripts
+[36.073s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/scripts/model.material
+[36.073s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/model.sdf
+[36.073s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/model.config
+[36.073s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW
+[36.074s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes
+[36.074s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/aruco-315.png
+[36.074s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/aruco-315.svg
+[36.074s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/queenW.dae
+[36.074s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/front-315.png
+[36.075s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/front-315.svg
+[36.075s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/model.config
+[36.075s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/queenW.sdf
+[36.075s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/piece_generator.py
+[36.076s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/black.png
+[36.076s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1
+[36.076s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes
+[36.076s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/aruco-313.svg
+[36.077s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/aruco-313.png
+[36.077s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/aruco-311.png
+[36.077s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/knightW1.dae
+[36.077s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/aruco-311.svg
+[36.078s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/front-311.svg
+[36.078s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/front-311.png
+[36.078s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/knightW1.sdf
+[36.078s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/model.config
+[36.079s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2
+[36.079s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes
+[36.079s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/aruco-202.png
+[36.079s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/front-202.png
+[36.080s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/front-202.svg
+[36.080s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/aruco-202.svg
+[36.080s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/pawnB2.dae
+[36.080s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/model.config
+[36.081s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/pawnB2.sdf
+[36.081s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6
+[36.081s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes
+[36.081s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/front-206.svg
+[36.081s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/pawnB6.dae
+[36.082s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/front-206.png
+[36.082s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/aruco-206.png
+[36.082s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/aruco-206.svg
+[36.082s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/pawnB6.sdf
+[36.083s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/model.config
+[36.083s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5
+[36.083s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes
+[36.083s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/front-305.png
+[36.084s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/aruco-305.png
+[36.084s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/front-305.svg
+[36.084s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/aruco-305.svg
+[36.084s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/pawnW5.dae
+[36.084s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/pawnW5.sdf
+[36.085s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/model.config
+[36.085s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3
+[36.085s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/pawnW3.sdf
+[36.085s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes
+[36.086s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/aruco-303.svg
+[36.086s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/aruco-303.png
+[36.086s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/front-303.svg
+[36.086s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/front-303.png
+[36.087s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/pawnW3.dae
+[36.087s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/model.config
+[36.087s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera-plugin
+[36.087s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera-plugin/camera-plugin.sdf
+[36.087s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera-plugin/model.config
+[36.088s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6
+[36.088s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes
+[36.088s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/aruco-306.png
+[36.088s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/front-306.png
+[36.089s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/pawnW6.dae
+[36.089s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/aruco-306.svg
+[36.089s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/front-306.svg
+[36.089s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/model.config
+[36.090s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/pawnW6.sdf
+[36.090s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/white-pieces-to-print.svg
+[36.090s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2
+[36.091s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/meshes
+[36.091s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/meshes/aruco-310.png
+[36.091s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/meshes/aruco-310.svg
+[36.091s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/meshes/towerW2.dae
+[36.092s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/model.config
+[36.092s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/towerW2.sdf
+[36.092s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1
+[36.092s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/meshes
+[36.093s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/meshes/aruco-309.svg
+[36.093s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/meshes/aruco-309.png
+[36.093s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/meshes/towerW1.dae
+[36.093s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/model.config
+[36.094s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/towerW1.sdf
+[36.094s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8
+[36.094s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes
+[36.094s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/front-208.png
+[36.094s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/aruco-208.png
+[36.095s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/aruco-208.svg
+[36.095s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/front-208.svg
+[36.095s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/pawnB8.dae
+[36.095s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/pawnB8.sdf
+[36.096s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/model.config
+[36.096s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1
+[36.096s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes
+[36.096s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/front-301.png
+[36.097s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/aruco-301.png
+[36.097s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/aruco-301.svg
+[36.097s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/pawnW1.dae
+[36.097s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/front-301.svg
+[36.097s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/pawnW1.sdf
+[36.098s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/model.config
+[36.098s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8
+[36.098s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes
+[36.098s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/front-308.png
+[36.099s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/pawnW8.dae
+[36.099s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/aruco-308.png
+[36.099s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/aruco-308.svg
+[36.099s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/front-308.svg
+[36.100s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/pawnW8.sdf
+[36.100s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/model.config
+[36.100s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3
+[36.100s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes
+[36.101s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/aruco-203.svg
+[36.101s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/pawnB3.dae
+[36.101s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/front-203.png
+[36.101s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/aruco-203.png
+[36.101s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/front-203.svg
+[36.102s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/model.config
+[36.102s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/pawnB3.sdf
+[36.102s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2
+[36.102s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes
+[36.103s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/front-212.svg
+[36.103s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/aruco-212.png
+[36.103s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/front-212.png
+[36.103s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/knightB2.dae
+[36.104s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/aruco-214.svg
+[36.104s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/aruco-214.png
+[36.104s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/aruco-212.svg
+[36.104s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/knightB2.sdf
+[36.104s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/model.config
+[36.105s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/white.png
+[36.105s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4
+[36.105s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes
+[36.105s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/pawnW4.dae
+[36.106s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/front-304.svg
+[36.106s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/front-304.png
+[36.106s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/aruco-304.svg
+[36.106s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/aruco-304.png
+[36.107s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/pawnW4.sdf
+[36.107s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/model.config
+[36.107s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1
+[36.107s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/meshes
+[36.107s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/meshes/aruco-311.png
+[36.108s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/meshes/aruco-311.svg
+[36.108s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/meshes/horseW1.dae
+[36.108s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/horseW1.sdf
+[36.108s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/model.config
+[36.109s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5
+[36.109s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/pawnB5.sdf
+[36.109s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes
+[36.109s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/aruco-205.png
+[36.109s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/front-205.svg
+[36.110s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/aruco-205.svg
+[36.110s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/front-205.png
+[36.110s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/pawnB5.dae
+[36.110s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/model.config
+[36.111s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2
+[36.111s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes
+[36.111s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/aruco-310.png
+[36.111s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/aruco-310.svg
+[36.112s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/rookW2.dae
+[36.112s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/front-310.png
+[36.112s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/front-310.svg
+[36.112s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/model.config
+[36.112s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/rookW2.sdf
+[36.113s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/untitled.blend1
+[36.227s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/untitled.blend
+[36.354s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2
+[36.355s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes
+[36.355s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/aruco-312.png
+[36.355s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/aruco-314.svg
+[36.355s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/aruco-314.png
+[36.356s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/front-312.png
+[36.356s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/knightW2.dae
+[36.356s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/aruco-312.svg
+[36.356s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/front-312.svg
+[36.357s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/model.config
+[36.357s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/knightW2.sdf
+[36.357s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB
+[36.357s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes
+[36.357s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/queenB.dae
+[36.358s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/aruco-215.svg
+[36.358s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/aruco-215.png
+[36.358s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/front-215.svg
+[36.359s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/front-215.png
+[36.359s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/queenB.sdf
+[36.359s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/model.config
+[36.359s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB
+[36.360s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes
+[36.360s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/aruco-216.svg
+[36.361s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/kingB.dae
+[36.361s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/front-216.png
+[36.361s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/aruco-216.png
+[36.362s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/front-216.svg
+[36.362s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/kingB.sdf
+[36.363s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/model.config
+[36.363s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1
+[36.363s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes
+[36.364s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/bishopW1.dae
+[36.364s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/aruco-313.svg
+[36.364s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/aruco-313.png
+[36.365s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/front-313.svg
+[36.365s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/front-313.png
+[36.365s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/bishopW1.sdf
+[36.366s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/model.config
+[36.366s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2
+[36.366s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes
+[36.367s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/front-214.svg
+[36.367s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/aruco-214.svg
+[36.367s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/aruco-214.png
+[36.368s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/front-214.png
+[36.368s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/bishopB2.dae
+[36.368s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/bishopB2.sdf
+[36.368s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/model.config
+[36.369s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1
+[36.369s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes
+[36.369s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/aruco-211.png
+[36.370s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/aruco-211.svg
+[36.370s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/aruco-213.png
+[36.370s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/front-211.png
+[36.371s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/front-211.svg
+[36.371s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/knightB1.dae
+[36.371s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/aruco-213.svg
+[36.372s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/model.config
+[36.372s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/knightB1.sdf
+[36.372s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard
+[36.373s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes
+[36.373s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/chessboard.svg
+[36.373s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/chessboard.png
+[36.374s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/chessboard.dae
+[36.374s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/aruco-100.svg
+[36.374s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/aruco-103.svg
+[36.375s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/aruco-101.svg
+[36.375s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/aruco-102.svg
+[36.375s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/chessboard.sdf
+[36.375s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/model.config
+[36.375s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2
+[36.375s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes
+[36.376s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/pawnW2.dae
+[36.376s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/front-302.svg
+[36.376s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/front-302.png
+[36.376s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/aruco-302.png
+[36.376s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/aruco-302.svg
+[36.376s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/pawnW2.sdf
+[36.376s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/model.config
+[36.377s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/piece_generator.blend1
+[36.394s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW
+[36.395s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes
+[36.395s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/front-316.png
+[36.395s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/kingW.dae
+[36.395s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/aruco-316.png
+[36.396s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/front-316.svg
+[36.396s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/aruco-316.svg
+[36.396s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/model.config
+[36.396s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/kingW.sdf
+[36.396s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support
+[36.396s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/meshes
+[36.397s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/meshes/camera_support.dae
+[36.397s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/meshes/camera_support.blend
+[36.398s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/model.config
+[36.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/camera_support.sdf
+[36.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1
+[36.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes
+[36.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/aruco-201.svg
+[36.399s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/front-201.png
+[36.400s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/pawnB1.dae
+[36.400s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/aruco-201.png
+[36.400s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/front-201.svg
+[36.400s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/pawnB1.sdf
+[36.401s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/model.config
+[36.401s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7
+[36.401s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes
+[36.402s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/aruco-207.png
+[36.402s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/aruco-207.svg
+[36.402s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/front-207.svg
+[36.403s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/pawnB7.dae
+[36.403s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/front-207.png
+[36.403s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/pawnB7.sdf
+[36.404s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/model.config
+[36.404s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2
+[36.404s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes
+[36.405s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/aruco-210.png
+[36.405s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/front-210.svg
+[36.406s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/front-210.png
+[36.406s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/aruco-210.svg
+[36.406s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/rookB2.dae
+[36.407s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/model.config
+[36.407s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/rookB2.sdf
+[36.407s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/piece_generator.blend
+[36.477s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support
+[36.477s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/meshes
+[36.478s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/meshes/flat_support.png
+[36.478s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/meshes/flat_support.dae
+[36.478s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/flat_support.urdf
+[36.479s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/model.config
+[36.479s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1
+[36.479s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/meshes
+[36.480s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/meshes/towerB1.dae
+[36.480s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/meshes/aruco-209.svg
+[36.480s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/meshes/aruco-209.png
+[36.481s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/model.config
+[36.481s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/towerB1.sdf
+[36.481s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1
+[36.482s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes
+[36.482s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/aruco-309.svg
+[36.482s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/rookW1.dae
+[36.482s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/aruco-309.png
+[36.483s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/front-309.png
+[36.483s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/front-309.svg
+[36.483s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/model.config
+[36.484s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/rookW1.sdf
+[36.484s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1
+[36.484s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes
+[36.485s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/rookB1.dae
+[36.485s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/front-209.svg
+[36.486s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/aruco-209.svg
+[36.486s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/front-209.png
+[36.486s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/aruco-209.png
+[36.487s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/rookB1.sdf
+[36.487s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/model.config
+[36.487s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1
+[36.488s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes
+[36.488s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/aruco-213.png
+[36.488s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/front-213.svg
+[36.489s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/aruco-213.svg
+[36.489s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/bishopB1.dae
+[36.489s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/front-213.png
+[36.490s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/bishopB1.sdf
+[36.490s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/model.config
+[36.490s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//worlds
+[36.491s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//worlds/flat_chesslab_simple.world
+[36.491s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//worlds/ris_chesslab.sdf
+[36.491s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//worlds/flat_chesslab.sdf
+[36.492s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//urdf
+[36.492s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//urdf/chesslab_gz.urdf.xacro
+[36.492s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//urdf/chesslab.urdf.xacro
+[36.492s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//rviz
+[36.493s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//rviz/chesslab_setup2_demo.rviz
+[36.493s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//rviz/chesslab_setup2_gz.rviz
+[36.493s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config
+[36.494s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3
+[36.494s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3/physical_parameters.yaml
+[36.494s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3/visual_parameters.yaml
+[36.495s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3/joint_limits.yaml
+[36.495s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/initial_positions.yaml
+[36.495s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3e
+[36.496s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3e/physical_parameters.yaml
+[36.496s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3e/visual_parameters.yaml
+[36.496s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3e/joint_limits.yaml
+[36.497s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/chesslab_controllers.yaml
+[36.497s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/gui.config
+[36.497s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/ament_index/resource_index/package_run_dependencies/chesslab_setup2
+[36.498s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/ament_index/resource_index/parent_prefix_path/chesslab_setup2
+[36.498s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/environment/ament_prefix_path.sh
+[36.498s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/environment/ament_prefix_path.dsv
+[36.499s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/environment/path.sh
+[36.499s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/environment/path.dsv
+[36.499s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/local_setup.bash
+[36.500s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/local_setup.sh
+[36.500s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/local_setup.zsh
+[36.501s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/local_setup.dsv
+[36.501s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/package.dsv
+[36.502s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/ament_index/resource_index/packages/chesslab_setup2
+[36.502s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.503s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/cmake/chesslab_setup2Config.cmake
+[36.503s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/cmake/chesslab_setup2Config-version.cmake
+[36.503s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/package.xml
+[36.508s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2

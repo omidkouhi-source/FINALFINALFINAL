@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chesslab_setup2_interfaces/srv/ValidateChessAction.srv
+// generated code does not contain a copyright notice
+
+
+module chesslab_setup2_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service to validate a chess action query" "\n"
+      "Request: chess action (from_cell, to_cell)")
+    struct ValidateChessAction_Request {
+      string from_cell;
+
+      string to_cell;
+    };
+    @verbatim (language="comment", text=
+      "Response: validation result")
+    struct ValidateChessAction_Response {
+      boolean success;
+
+      boolean is_valid;
+
+      string message;
+    };
+  };
+};

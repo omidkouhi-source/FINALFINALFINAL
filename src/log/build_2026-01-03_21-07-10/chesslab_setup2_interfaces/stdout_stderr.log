@@ -1,0 +1,556 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found ur_description: 3.5.0 (/opt/ros/jazzy/share/ur_description/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (17.9s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2_interfaces
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_chesslab_setup2_interfaces
+running egg_info
+creating chesslab_setup2_interfaces.egg-info
+writing chesslab_setup2_interfaces.egg-info/PKG-INFO
+writing dependency_links to chesslab_setup2_interfaces.egg-info/dependency_links.txt
+writing top-level names to chesslab_setup2_interfaces.egg-info/top_level.txt
+writing manifest file 'chesslab_setup2_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'chesslab_setup2_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'chesslab_setup2_interfaces.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_chesslab_setup2_interfaces_egg
+[  1%] Built target chesslab_setup2_interfaces__rosidl_generator_type_description
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target chesslab_setup2_interfaces__cpp
+[  3%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__description.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/set_obj_pose__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/set_obj_pose__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/set_rob_conf__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/set_rob_conf__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/set_rob_conf__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/attach_obj__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/attach_obj__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/attach_obj__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/set_obj_pose__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/detach_obj__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/detach_obj__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/detach_obj__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/get_piece_location__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/get_piece_location__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/get_piece_location__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/validate_chess_action__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/validate_chess_action__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/validate_chess_action__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/verify_pick_place__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/verify_pick_place__functions.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chesslab_setup2_interfaces/srv/detail/verify_pick_place__description.c.o[0m
+[ 27%] [32m[1mLinking C shared library libchesslab_setup2_interfaces__rosidl_generator_c.so[0m
+[ 27%] Built target chesslab_setup2_interfaces__rosidl_generator_c
+[ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/msg/inverse_kinematics_solution__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/srv/set_obj_pose__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/srv/set_rob_conf__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/srv/attach_obj__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/srv/detach_obj__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/srv/detect_piece_poses__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/srv/get_piece_location__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/srv/verify_pick_place__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/srv/validate_chess_action__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chesslab_setup2_interfaces/srv/inverse_kinematics_simple__type_support.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libchesslab_setup2_interfaces__rosidl_typesupport_cpp.so[0m
+[ 37%] Built target chesslab_setup2_interfaces__rosidl_typesupport_cpp
+[ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/srv/detail/set_rob_conf__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/srv/detail/attach_obj__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/srv/detail/detach_obj__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/srv/detail/get_piece_location__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/srv/detail/verify_pick_place__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/srv/detail/validate_chess_action__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/srv/detail/set_obj_pose__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__type_support.cpp.o[0m
+[ 47%] [32m[1mLinking CXX shared library libchesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 47%] Built target chesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp
+[ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/msg/inverse_kinematics_solution__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/attach_obj__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/detach_obj__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/detect_piece_poses__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/get_piece_location__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/verify_pick_place__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/validate_chess_action__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/set_rob_conf__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/set_obj_pose__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chesslab_setup2_interfaces/srv/inverse_kinematics_simple__type_support.cpp.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__type_support.c.o[0m
+[ 58%] [32m[1mLinking CXX shared library libchesslab_setup2_interfaces__rosidl_typesupport_c.so[0m
+[ 59%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/srv/detail/attach_obj__type_support.c.o[0m
+[ 59%] Built target chesslab_setup2_interfaces__rosidl_typesupport_c
+[ 60%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/srv/detail/detach_obj__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/srv/detail/get_piece_location__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/srv/detail/verify_pick_place__type_support.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/srv/detail/validate_chess_action__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/srv/detail/set_rob_conf__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/srv/detail/set_obj_pose__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__type_support.c.o[0m
+[ 66%] [32m[1mLinking C shared library libchesslab_setup2_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 66%] Built target chesslab_setup2_interfaces__rosidl_typesupport_introspection_c
+[ 66%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/srv/detail/dds_fastrtps/inverse_kinematics_simple__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/msg/detail/dds_fastrtps/inverse_kinematics_solution__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/srv/detail/dds_fastrtps/detect_piece_poses__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/srv/detail/dds_fastrtps/get_piece_location__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/srv/detail/dds_fastrtps/validate_chess_action__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/srv/detail/dds_fastrtps/detach_obj__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/srv/detail/dds_fastrtps/verify_pick_place__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/srv/detail/dds_fastrtps/attach_obj__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/srv/detail/dds_fastrtps/set_rob_conf__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chesslab_setup2_interfaces/srv/detail/dds_fastrtps/set_obj_pose__type_support.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libchesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 75%] Built target chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 76%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/srv/detail/verify_pick_place__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/srv/detail/validate_chess_action__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/srv/detail/get_piece_location__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/srv/detail/detach_obj__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/srv/detail/attach_obj__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/srv/detail/set_rob_conf__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chesslab_setup2_interfaces/srv/detail/set_obj_pose__type_support_c.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libchesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 85%] Built target chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c
+[ 85%] Built target chesslab_setup2_interfaces
+[ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 86%] Built target chesslab_setup2_interfaces__py
+[ 87%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/msg/_inverse_kinematics_solution_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_get_piece_location_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_verify_pick_place_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_validate_chess_action_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_detect_piece_poses_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_detach_obj_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_attach_obj_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_set_rob_conf_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_set_obj_pose_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_inverse_kinematics_simple_s.c.o[0m
+[ 95%] [32m[1mLinking C shared library libchesslab_setup2_interfaces__rosidl_generator_py.so[0m
+[ 95%] Built target chesslab_setup2_interfaces__rosidl_generator_py
+[ 96%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/chesslab_setup2_interfaces/_chesslab_setup2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 97%] Built target chesslab_setup2_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 97%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/chesslab_setup2_interfaces/_chesslab_setup2_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_c.so[0m
+[ 98%] Built target chesslab_setup2_interfaces_s__rosidl_typesupport_c
+[ 99%] [32mBuilding C object CMakeFiles/chesslab_setup2_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/chesslab_setup2_interfaces/_chesslab_setup2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target chesslab_setup2_interfaces_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/ament_index/resource_index/rosidl_interfaces/chesslab_setup2_interfaces
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/msg/InverseKinematicsSolution.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/InverseKinematicsSimple.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/SetObjPose.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/SetRobConf.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/AttachObj.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/DetachObj.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/DetectPiecePoses.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/GetPieceLocation.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/VerifyPickPlace.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/ValidateChessAction.json
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/inverse_kinematics_simple.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/verify_pick_place.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detach_obj.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/set_rob_conf.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/validate_chess_action.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/set_obj_pose.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detect_piece_poses.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/attach_obj.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/get_piece_location.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/inverse_kinematics_solution.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__description.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__struct.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__functions.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__functions.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__type_support.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/environment/library_path.sh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/environment/library_path.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detach_obj.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detect_piece_poses.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/attach_obj.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/set_rob_conf.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/get_piece_location.hpp
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/verify_pick_place.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/set_obj_pose.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/inverse_kinematics_simple.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/validate_chess_action.hpp
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/inverse_kinematics_solution.hpp
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__type_support.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__traits.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__builder.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__struct.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/dds_fastrtps
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__type_support.c
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__type_support.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__type_support.cpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detect_piece_poses__type_support.cpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_rob_conf__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__type_support.cpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/inverse_kinematics_simple__type_support.cpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/attach_obj__type_support.cpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/get_piece_location__type_support.cpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/verify_pick_place__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/detach_obj__type_support.cpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/set_obj_pose__type_support.cpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/srv/detail/validate_chess_action__type_support.cpp
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg
+-- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/include/chesslab_setup2_interfaces/chesslab_setup2_interfaces/msg/detail/inverse_kinematics_solution__type_support.cpp
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/environment/pythonpath.sh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/environment/pythonpath.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces-0.0.0-py3.12.egg-info
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_detach_obj.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_detect_piece_poses_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_set_obj_pose_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_set_rob_conf.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_verify_pick_place_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_get_piece_location_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_validate_chess_action.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_get_piece_location.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_attach_obj.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/__init__.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_verify_pick_place.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_detect_piece_poses.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_validate_chess_action_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_attach_obj_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_inverse_kinematics_simple_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_inverse_kinematics_simple.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_set_obj_pose.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_detach_obj_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_set_rob_conf_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/msg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/msg/_inverse_kinematics_solution.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/msg/__init__.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/msg/_inverse_kinematics_solution_s.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/_chesslab_setup2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_c.so
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/__init__.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/_chesslab_setup2_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/_chesslab_setup2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/__init__.py'...
+Listing '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/msg'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/msg/__init__.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/msg/_inverse_kinematics_solution.py'...
+Listing '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/__init__.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_attach_obj.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_detach_obj.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_detect_piece_poses.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_get_piece_location.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_inverse_kinematics_simple.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_set_obj_pose.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_set_rob_conf.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_validate_chess_action.py'...
+Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/srv/_verify_pick_place.py'...
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/python3.12/site-packages/chesslab_setup2_interfaces/chesslab_setup2_interfaces_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/lib/libchesslab_setup2_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/msg/InverseKinematicsSolution.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/InverseKinematicsSimple.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/SetObjPose.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/SetRobConf.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/AttachObj.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/DetachObj.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/DetectPiecePoses.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/GetPieceLocation.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/VerifyPickPlace.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/ValidateChessAction.idl
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/msg/InverseKinematicsSolution.msg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/InverseKinematicsSimple.srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/SetObjPose.srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/SetRobConf.srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/AttachObj.srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/DetachObj.srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/DetectPiecePoses.srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/GetPieceLocation.srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/VerifyPickPlace.srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/srv/ValidateChessAction.srv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/ament_index/resource_index/package_run_dependencies/chesslab_setup2_interfaces
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/ament_index/resource_index/parent_prefix_path/chesslab_setup2_interfaces
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/environment/path.sh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/environment/path.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/local_setup.bash
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/local_setup.sh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/local_setup.zsh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/local_setup.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/package.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/ament_index/resource_index/packages/chesslab_setup2_interfaces
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/export_chesslab_setup2_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/export_chesslab_setup2_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/export_chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/export_chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/export_chesslab_setup2_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/export_chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/export_chesslab_setup2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/export_chesslab_setup2_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/export_chesslab_setup2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfacesConfig.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake/chesslab_setup2_interfacesConfig-version.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/package.xml

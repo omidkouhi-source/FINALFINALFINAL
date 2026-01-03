@@ -1,0 +1,10 @@
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/uninstall.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/aruco_uninstall.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/aruco.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/test.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/edit_cache.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/rebuild_cache.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/list_install_components.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/install.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/install/local.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco/CMakeFiles/install/strip.dir

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chess Move UI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div>
+          <p class="kicker">Chesslab Control</p>
+          <h1>Pick, Place, Confirm</h1>
+          <p class="subtitle">Select a piece, then click a target square to move it.</p>
+        </div>
+        <div class="status-card">
+          <div class="status-label">Status</div>
+          <div id="status" class="status-value">Idle</div>
+          <div id="statusDetail" class="status-detail">Awaiting input.</div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="board-shell">
+          <div class="board-header">
+            <div class="legend">
+              <span class="dot white"></span> White IDs 301-316
+              <span class="dot black"></span> Black IDs 201-216
+            </div>
+            <button id="detectBtn" class="ghost">Detect Pieces</button>
+          </div>
+          <div class="board-frame">
+            <div id="board" class="board" aria-label="Chessboard"></div>
+          </div>
+        </section>
+
+        <aside class="panel">
+          <div class="panel-card">
+            <h2>Selection</h2>
+            <div class="field">
+              <label for="pieceSelect">Piece (Aruco ID)</label>
+              <select id="pieceSelect"></select>
+            </div>
+            <div class="field">
+              <label for="squareInput">Target square</label>
+              <input id="squareInput" type="text" placeholder="e4" maxlength="2" />
+            </div>
+            <button id="moveBtn" class="primary">Move Piece</button>
+            <p class="hint">Tip: click a piece on the board, then a square.</p>
+          </div>
+
+          <div class="panel-card">
+            <h2>Move Log</h2>
+            <div id="log" class="log"></div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

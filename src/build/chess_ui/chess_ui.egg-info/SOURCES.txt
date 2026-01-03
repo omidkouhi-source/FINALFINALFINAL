@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/chess_ui/chess_ui.egg-info/PKG-INFO
+../build/chess_ui/chess_ui.egg-info/SOURCES.txt
+../build/chess_ui/chess_ui.egg-info/dependency_links.txt
+../build/chess_ui/chess_ui.egg-info/entry_points.txt
+../build/chess_ui/chess_ui.egg-info/requires.txt
+../build/chess_ui/chess_ui.egg-info/top_level.txt
+../build/chess_ui/chess_ui.egg-info/zip-safe
+chess_ui/__init__.py
+chess_ui/ui_server.py
+chess_ui/web/app.js
+chess_ui/web/index.html
+chess_ui/web/styles.css
+launch/chess_ui.launch.py
+resource/chess_ui

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chesslab_setup2_interfaces/srv/VerifyPickPlace.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module chesslab_setup2_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service to verify the result of a pick and place operation" "\n"
+      "Request: piece aruco id and expected target position")
+    struct VerifyPickPlace_Request {
+      int16 piece_aruco_id;
+
+      geometry_msgs::msg::Point target_position;
+
+      float tolerance;
+    };
+    @verbatim (language="comment", text=
+      "Response: success status")
+    struct VerifyPickPlace_Response {
+      boolean success;
+
+      boolean piece_at_target;
+
+      float distance_to_target;
+
+      string message;
+    };
+  };
+};

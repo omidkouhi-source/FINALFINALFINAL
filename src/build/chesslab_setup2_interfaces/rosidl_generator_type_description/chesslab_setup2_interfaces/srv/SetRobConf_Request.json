@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "chesslab_setup2_interfaces/srv/SetRobConf_Request",
+      "fields": [
+        {
+          "name": "conf",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "chesslab_setup2_interfaces/srv/SetRobConf_Request",
+      "hash_string": "RIHS01_1cefb055f88ebe2c9642e91e552b6e4c00a20e0cf2d8defa54320a5ce0cc8263"
+    }
+  ]
+}

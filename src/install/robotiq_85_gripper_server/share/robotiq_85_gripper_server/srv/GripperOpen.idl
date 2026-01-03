@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robotiq_85_gripper_server/srv/GripperOpen.srv
+// generated code does not contain a copyright notice
+
+
+module robotiq_85_gripper_server {
+  module srv {
+    struct GripperOpen_Request {
+      boolean order;
+    };
+    struct GripperOpen_Response {
+      boolean status;
+    };
+  };
+};

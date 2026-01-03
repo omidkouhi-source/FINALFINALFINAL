@@ -1,0 +1,14 @@
+{
+  "package_name": "kinenikros2",
+  "output_dir": "/home/omid/data/colcon_ws1FW/src/final_work/src/build/kinenikros2/rosidl_generator_type_description/kinenikros2",
+  "idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/build/kinenikros2/rosidl_adapter/kinenikros2:msg/InverseKinematics.idl",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/build/kinenikros2/rosidl_adapter/kinenikros2:srv/InverseKinematics.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

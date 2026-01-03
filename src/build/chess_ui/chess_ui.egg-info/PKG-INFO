@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: chess-ui
+Version: 0.1.0
+Summary: Simple web UI for moving chess pieces via ROS 2 services.
+Maintainer: Costin
+Maintainer-email: costin@example.com
+License: Apache-2.0

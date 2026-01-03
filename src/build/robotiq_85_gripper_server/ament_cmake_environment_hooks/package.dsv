@@ -1,0 +1,4 @@
+source;share/robotiq_85_gripper_server/local_setup.bash
+source;share/robotiq_85_gripper_server/local_setup.dsv
+source;share/robotiq_85_gripper_server/local_setup.sh
+source;share/robotiq_85_gripper_server/local_setup.zsh

@@ -1,0 +1,16 @@
+{
+  "package_name": "robotiq_85_gripper_server",
+  "output_dir": "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/rosidl_generator_type_description/robotiq_85_gripper_server",
+  "idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/rosidl_adapter/robotiq_85_gripper_server:srv/GripperOrder.idl",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/rosidl_adapter/robotiq_85_gripper_server:srv/GripperOpen.idl",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/rosidl_adapter/robotiq_85_gripper_server:srv/GripperClose.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "rcl_interfaces:/opt/ros/jazzy/share/rcl_interfaces",
+    "rosgraph_msgs:/opt/ros/jazzy/share/rosgraph_msgs",
+    "statistics_msgs:/opt/ros/jazzy/share/statistics_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

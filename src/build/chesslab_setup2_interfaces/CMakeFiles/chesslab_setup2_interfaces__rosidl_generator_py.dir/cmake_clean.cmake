@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/msg/_inverse_kinematics_solution_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/msg/_inverse_kinematics_solution_s.c.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_attach_obj_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_attach_obj_s.c.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_detach_obj_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_detach_obj_s.c.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_detect_piece_poses_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_detect_piece_poses_s.c.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_get_piece_location_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_get_piece_location_s.c.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_inverse_kinematics_simple_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_inverse_kinematics_simple_s.c.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_set_obj_pose_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_set_obj_pose_s.c.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_set_rob_conf_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_set_rob_conf_s.c.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_validate_chess_action_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_validate_chess_action_s.c.o.d"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_verify_pick_place_s.c.o"
+  "CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chesslab_setup2_interfaces/srv/_verify_pick_place_s.c.o.d"
+  "libchesslab_setup2_interfaces__rosidl_generator_py.pdb"
+  "libchesslab_setup2_interfaces__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/chesslab_setup2_interfaces__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

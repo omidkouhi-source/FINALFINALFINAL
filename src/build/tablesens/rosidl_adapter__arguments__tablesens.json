@@ -1,0 +1,8 @@
+{
+  "package_name": "tablesens",
+  "non_idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/tablesens:msg/MarkerFix.msg",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/tablesens:msg/MarkerFixList.msg",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/tablesens:srv/ConfigureFromService.srv"
+  ]
+}

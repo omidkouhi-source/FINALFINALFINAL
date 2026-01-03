@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tablesens/msg/MarkerFixList.msg
+// generated code does not contain a copyright notice
+
+#include "tablesens/msg/MarkerFix.idl"
+
+module tablesens {
+  module msg {
+    struct MarkerFixList {
+      sequence<tablesens::msg::MarkerFix> marker_fix_list;
+    };
+  };
+};

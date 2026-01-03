@@ -1,0 +1,62 @@
+[0.046s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper/robotiq_85_description -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description
+[0.296s] -- The C compiler identification is GNU 13.3.0
+[0.503s] -- The CXX compiler identification is GNU 13.3.0
+[0.552s] -- Detecting C compiler ABI info
+[0.788s] -- Detecting C compiler ABI info - done
+[0.825s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.827s] -- Detecting C compile features
+[0.828s] -- Detecting C compile features - done
+[0.857s] -- Detecting CXX compiler ABI info
+[1.145s] -- Detecting CXX compiler ABI info - done
+[1.170s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.170s] -- Detecting CXX compile features
+[1.172s] -- Detecting CXX compile features - done
+[1.199s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.703s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.302s] -- Configuring done (2.2s)
+[2.309s] -- Generating done (0.0s)
+[2.313s] -- Build files have been written to: /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description
+[2.346s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper/robotiq_85_description -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description
+[2.348s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description -- -j8 -l8
+[2.483s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description -- -j8 -l8
+[2.517s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description
+[2.573s] -- Install configuration: ""
+[2.573s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/config
+[2.574s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/config/view_gripper.rviz
+[2.574s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/launch
+[2.574s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/launch/view_gripper.launch.py
+[2.575s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes
+[2.575s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/visual
+[2.576s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/ur_to_robotiq_adapter.dae
+[2.576s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_inner_knuckle_link.dae
+[2.576s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_finger_tip_link.dae
+[2.577s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_base_link.dae
+[2.577s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_knuckle_link.dae
+[2.577s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_finger_link.dae
+[2.578s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/collision
+[2.579s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/ur_to_robotiq_adapter.stl
+[2.579s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_knuckle_link.stl
+[2.579s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_finger_link.stl
+[2.580s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_finger_tip_link.stl
+[2.582s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_inner_knuckle_link.stl
+[2.582s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_base_link.stl
+[2.582s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/urdf
+[2.583s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_85_gripper_macro.xacro
+[2.583s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/urdf/ur_to_robotiq_adapter_macro.xacro
+[2.583s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_85_gripper.urdf.xacro
+[2.584s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/ament_index/resource_index/package_run_dependencies/robotiq_85_description
+[2.585s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/ament_index/resource_index/parent_prefix_path/robotiq_85_description
+[2.585s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/environment/ament_prefix_path.sh
+[2.585s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/environment/ament_prefix_path.dsv
+[2.585s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/environment/path.sh
+[2.586s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/environment/path.dsv
+[2.586s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/local_setup.bash
+[2.586s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/local_setup.sh
+[2.586s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/local_setup.zsh
+[2.587s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/local_setup.dsv
+[2.587s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/package.dsv
+[2.587s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/ament_index/resource_index/packages/robotiq_85_description
+[2.588s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/cmake/robotiq_85_descriptionConfig.cmake
+[2.589s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/cmake/robotiq_85_descriptionConfig-version.cmake
+[2.589s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/package.xml
+[2.589s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_description

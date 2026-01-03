@@ -1,0 +1,6 @@
+{
+  "package_name": "aruco_broadcaster",
+  "non_idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/aruco_broadcaster:srv/GetMarkerTf.srv"
+  ]
+}

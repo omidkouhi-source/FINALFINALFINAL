@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from kinenikros2/srv/InverseKinematics.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "kinenikros2/msg/InverseKinematics.idl"
+
+module kinenikros2 {
+  module srv {
+    struct InverseKinematics_Request {
+      string type;
+
+      geometry_msgs::msg::Pose pose;
+    };
+    struct InverseKinematics_Response {
+      sequence<kinenikros2::msg::InverseKinematics> ik_solution;
+
+      boolean status;
+    };
+  };
+};

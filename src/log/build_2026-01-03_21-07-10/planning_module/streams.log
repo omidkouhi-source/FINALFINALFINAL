@@ -1,0 +1,90 @@
+[0.027s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/planning_module -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module
+[0.166s] -- The C compiler identification is GNU 13.3.0
+[0.341s] -- The CXX compiler identification is GNU 13.3.0
+[0.379s] -- Detecting C compiler ABI info
+[0.645s] -- Detecting C compiler ABI info - done
+[0.684s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.684s] -- Detecting C compile features
+[0.686s] -- Detecting C compile features - done
+[0.715s] -- Detecting CXX compiler ABI info
+[1.031s] -- Detecting CXX compiler ABI info - done
+[1.069s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.070s] -- Detecting CXX compile features
+[1.073s] -- Detecting CXX compile features - done
+[1.087s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.533s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.924s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.129s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.202s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.756s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.773s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.121s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.200s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.291s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.627s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.774s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.879s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[3.963s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[3.990s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[4.538s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[4.597s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.601s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.602s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.609s] -- Found kinenikros2: 0.0.1 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/share/kinenikros2/cmake)
+[4.907s] -- Configuring done (4.9s)
+[4.980s] -- Generating done (0.1s)
+[5.012s] -- Build files have been written to: /home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module
+[5.041s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/planning_module -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module
+[5.044s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module -- -j8 -l8
+[5.166s] [ 12%] [32mBuilding CXX object CMakeFiles/planning_core.dir/src/board_geometry.cpp.o[0m
+[6.668s] [ 25%] [32mBuilding CXX object CMakeFiles/planning_core.dir/src/pick_place_planner.cpp.o[0m
+[24.795s] [ 37%] [32mBuilding CXX object CMakeFiles/planning_core.dir/src/motion_planning.cpp.o[0m
+[34.322s] [ 50%] [32m[1mLinking CXX shared library libplanning_core.so[0m
+[34.988s] [ 50%] Built target planning_core
+[35.053s] [ 62%] [32mBuilding CXX object CMakeFiles/pick_service_node.dir/src/pick_service_node.cpp.o[0m
+[35.059s] [ 75%] [32mBuilding CXX object CMakeFiles/place_service_node.dir/src/place_service_node.cpp.o[0m
+[47.679s] [ 87%] [32m[1mLinking CXX executable place_service_node[0m
+[48.097s] [100%] [32m[1mLinking CXX executable pick_service_node[0m
+[48.361s] [100%] Built target place_service_node
+[48.728s] [100%] Built target pick_service_node
+[48.755s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module -- -j8 -l8
+[48.759s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module
+[48.776s] -- Install configuration: ""
+[48.777s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib/libplanning_core.so
+[48.782s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib/libplanning_core.so" to ""
+[48.782s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/include
+[48.782s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/include/planning_module
+[48.783s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/include/planning_module/board_geometry.hpp
+[48.783s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/include/planning_module/pick_place_planner.hpp
+[48.784s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/include/planning_module/motion_planning.hpp
+[48.784s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/environment/library_path.sh
+[48.784s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/environment/library_path.dsv
+[48.785s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib/planning_module/pick_service_node
+[48.787s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib/planning_module/pick_service_node" to ""
+[48.787s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib/planning_module/place_service_node
+[48.789s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/lib/planning_module/place_service_node" to ""
+[48.789s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/launch
+[48.789s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/launch/planning.launch.py
+[48.790s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/ament_index/resource_index/package_run_dependencies/planning_module
+[48.790s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/ament_index/resource_index/parent_prefix_path/planning_module
+[48.791s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/environment/ament_prefix_path.sh
+[48.791s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/environment/ament_prefix_path.dsv
+[48.792s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/environment/path.sh
+[48.792s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/environment/path.dsv
+[48.792s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/local_setup.bash
+[48.793s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/local_setup.sh
+[48.793s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/local_setup.zsh
+[48.794s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/local_setup.dsv
+[48.794s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/package.dsv
+[48.794s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/ament_index/resource_index/packages/planning_module
+[48.795s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/cmake/export_planning_coreExport.cmake
+[48.795s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/cmake/export_planning_coreExport-noconfig.cmake
+[48.796s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.796s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/cmake/ament_cmake_export_targets-extras.cmake
+[48.797s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.797s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/cmake/planning_moduleConfig.cmake
+[48.798s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/cmake/planning_moduleConfig-version.cmake
+[48.798s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/planning_module/share/planning_module/package.xml
+[48.802s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/kinenikros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/planning_module

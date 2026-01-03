@@ -1,0 +1,3 @@
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/rosidl_adapter/robotiq_85_gripper_server:srv/GripperOrder.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/rosidl_adapter/robotiq_85_gripper_server:srv/GripperOpen.idl
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/rosidl_adapter/robotiq_85_gripper_server:srv/GripperClose.idl

@@ -1,0 +1,7 @@
+# Configuration file for sensing module
+sensing_node:
+  ros__parameters:
+    world_frame: "world"
+    camera_frame: "camera_color_optical_frame"
+    aruco_frame_prefix: "aruco"
+    tf_timeout: 2.0

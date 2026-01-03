@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "aruco_broadcaster/srv/GetMarkerTf_Request",
+      "fields": [
+        {
+          "name": "parent",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "marker_id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "aruco_broadcaster/srv/GetMarkerTf_Request",
+      "hash_string": "RIHS01_4e53ea437df0966743be81b7778efeb6c010e85e5772026513f31a1fa6d3c93d"
+    }
+  ]
+}

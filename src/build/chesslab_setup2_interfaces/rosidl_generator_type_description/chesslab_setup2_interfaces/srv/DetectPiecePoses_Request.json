@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "chesslab_setup2_interfaces/srv/DetectPiecePoses_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "chesslab_setup2_interfaces/srv/DetectPiecePoses_Request",
+      "hash_string": "RIHS01_2dba135247a2428f9a11ff4193f80d174e7d5a4a7f3d479772d4c142613031db"
+    }
+  ]
+}

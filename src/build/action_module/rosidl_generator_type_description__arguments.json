@@ -1,0 +1,11 @@
+{
+  "package_name": "action_module",
+  "output_dir": "/home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module/rosidl_generator_type_description/action_module",
+  "idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/build/action_module/rosidl_adapter/action_module:srv/MovePiece.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

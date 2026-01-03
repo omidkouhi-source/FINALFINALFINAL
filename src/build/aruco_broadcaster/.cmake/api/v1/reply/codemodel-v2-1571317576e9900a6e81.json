@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4f2099221a7aae9bd9da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "aruco_broadcaster__py",
+					"jsonFile" : "directory-aruco_broadcaster__py-d2c2f23036a47edd6784.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_broadcaster/aruco_broadcaster__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "aruco_broadcaster",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aruco_broadcaster_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aruco_broadcaster_egg-d9f5c8aed00131429759.json",
+					"name" : "ament_cmake_python_build_aruco_broadcaster_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_aruco_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_aruco_broadcaster-e9ec7262c81b5c01f7cd.json",
+					"name" : "ament_cmake_python_copy_aruco_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster-1f04622b006bcde5a9b2.json",
+					"name" : "aruco_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__cpp-3fc3d08e16ea3f523b18.json",
+					"name" : "aruco_broadcaster__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "aruco_broadcaster__py::@2db69bd2e812d747d862",
+					"jsonFile" : "target-aruco_broadcaster__py-11427e7ab7f586231e0e.json",
+					"name" : "aruco_broadcaster__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__rosidl_generator_c-4b10eee105e2a3ffeee9.json",
+					"name" : "aruco_broadcaster__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__rosidl_generator_py-7794e2c2fc6ea56a0ebf.json",
+					"name" : "aruco_broadcaster__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__rosidl_generator_type_description-6875f397c5fd50268dc7.json",
+					"name" : "aruco_broadcaster__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__rosidl_typesupport_c-de61c8e5267ff803fb30.json",
+					"name" : "aruco_broadcaster__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__rosidl_typesupport_cpp-63aa0dc70129593b8e29.json",
+					"name" : "aruco_broadcaster__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__rosidl_typesupport_fastrtps_c-cc071f037e2ae78ace8c.json",
+					"name" : "aruco_broadcaster__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__rosidl_typesupport_fastrtps_cpp-3f062c2ff2c7b7dfeb7c.json",
+					"name" : "aruco_broadcaster__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__rosidl_typesupport_introspection_c-f28204ed607790c55425.json",
+					"name" : "aruco_broadcaster__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster__rosidl_typesupport_introspection_cpp-d3f66692d5f21373f248.json",
+					"name" : "aruco_broadcaster__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster_node-51a385830a6ec328bc99.json",
+					"name" : "aruco_broadcaster_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster_s__rosidl_typesupport_c-d75938eba51f8b0559b1.json",
+					"name" : "aruco_broadcaster_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster_s__rosidl_typesupport_fastrtps_c-9dc86dd1798392fbaa24.json",
+					"name" : "aruco_broadcaster_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster_s__rosidl_typesupport_introspection_c-322a598630d7a79faccc.json",
+					"name" : "aruco_broadcaster_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_broadcaster_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_broadcaster_uninstall-1ae711a5af2ade237a42.json",
+					"name" : "aruco_broadcaster_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c4dc49cacd7526519abc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/aruco_broadcaster",
+		"source" : "/home/omid/data/colcon_ws1FW/src/final_work/src/aruco_broadcaster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

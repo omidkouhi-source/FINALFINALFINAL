@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4cfc4c484c5865f0aa73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "robotiq_85_gripper_server__py",
+					"jsonFile" : "directory-robotiq_85_gripper_server__py-47ced6451d4a246cdd9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server/robotiq_85_gripper_server__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robotiq_85_gripper_server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robotiq_85_gripper_server_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robotiq_85_gripper_server_egg-dc5a5984f896e63f5f5c.json",
+					"name" : "ament_cmake_python_build_robotiq_85_gripper_server_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robotiq_85_gripper_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robotiq_85_gripper_server-6157ef01d98d28417846.json",
+					"name" : "ament_cmake_python_copy_robotiq_85_gripper_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_server-ec0234c763ffb8a88b6b.json",
+					"name" : "gripper_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_server_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_server_sim-7dee6e9b5df71651e164.json",
+					"name" : "gripper_server_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server-1a82ffaae68beb7d5c36.json",
+					"name" : "robotiq_85_gripper_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__cpp-e5531d33746a130d9406.json",
+					"name" : "robotiq_85_gripper_server__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robotiq_85_gripper_server__py::@74a1572767adb879926b",
+					"jsonFile" : "target-robotiq_85_gripper_server__py-87eb071a7149fa454039.json",
+					"name" : "robotiq_85_gripper_server__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__rosidl_generator_c-df577ee705aafd00eff8.json",
+					"name" : "robotiq_85_gripper_server__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__rosidl_generator_py-36c3e140435dc1f29323.json",
+					"name" : "robotiq_85_gripper_server__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__rosidl_generator_type_description-32eaa094b0f0ea18d560.json",
+					"name" : "robotiq_85_gripper_server__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__rosidl_typesupport_c-7f33a363531aed8fac04.json",
+					"name" : "robotiq_85_gripper_server__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__rosidl_typesupport_cpp-b72308f1237598d0aa00.json",
+					"name" : "robotiq_85_gripper_server__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__rosidl_typesupport_fastrtps_c-11d8f4e5ff073abf39ae.json",
+					"name" : "robotiq_85_gripper_server__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp-a55899bd38cc034989fc.json",
+					"name" : "robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__rosidl_typesupport_introspection_c-93eb32771586a47e5af4.json",
+					"name" : "robotiq_85_gripper_server__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server__rosidl_typesupport_introspection_cpp-4dec644444ebad9b180f.json",
+					"name" : "robotiq_85_gripper_server__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server_s__rosidl_typesupport_c-da6e7e4750afcea9ee9d.json",
+					"name" : "robotiq_85_gripper_server_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server_s__rosidl_typesupport_fastrtps_c-8b05732eba711b72bbf1.json",
+					"name" : "robotiq_85_gripper_server_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server_s__rosidl_typesupport_introspection_c-93a00231897f70f8b2e2.json",
+					"name" : "robotiq_85_gripper_server_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_85_gripper_server_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_85_gripper_server_uninstall-3cd9b01edfabd63b590b.json",
+					"name" : "robotiq_85_gripper_server_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9af69fc2886eb4fa6375.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server",
+		"source" : "/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

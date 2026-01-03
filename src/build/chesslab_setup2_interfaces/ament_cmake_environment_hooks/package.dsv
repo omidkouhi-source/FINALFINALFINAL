@@ -1,0 +1,4 @@
+source;share/chesslab_setup2_interfaces/local_setup.bash
+source;share/chesslab_setup2_interfaces/local_setup.dsv
+source;share/chesslab_setup2_interfaces/local_setup.sh
+source;share/chesslab_setup2_interfaces/local_setup.zsh

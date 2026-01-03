@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kinenikros2__py",
+		"source" : "/home/omid/data/colcon_ws1FW/src/final_work/src/build/kinenikros2/kinenikros2__py"
+	}
+}

@@ -1,0 +1,517 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found ur_description: 3.5.0 (/opt/ros/jazzy/share/ur_description/cmake)
+-- Found robotiq_85_description: 1.0.1 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_description/share/robotiq_85_description/cmake)
+-- Found robotiq_85_gz: 0.0.0 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gz/share/robotiq_85_gz/cmake)
+-- Found chesslab_setup2_interfaces: 0.0.0 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2_interfaces/share/chesslab_setup2_interfaces/cmake)
+-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found robotiq_85_gripper_server: 0.0.0 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2/include;$<BUILD_INTERFACE:/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/omid/data/colcon_ws1FW/src/final_work/src/build/chesslab_setup2
+[ 33%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_demo.dir/src/chesslab_setup2_demo.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/chesslab_setup2_demo.dir/src/chesslab.cpp.o[0m
+[100%] [32m[1mLinking CXX executable chesslab_setup2_demo[0m
+[100%] Built target chesslab_setup2_demo
+-- Install configuration: ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/lib/chesslab_setup2/chesslab_setup2_demo
+-- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/lib/chesslab_setup2/chesslab_setup2_demo" to ""
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//launch
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//launch/chesslab_gz.launch.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//launch/chesslab_view.launch.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//launch/chesslab_setup2_demo.launch.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/front-307.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/aruco-307.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/aruco-307.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/front-307.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/meshes/pawnW7.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW7/pawnW7.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/chessboard-esaii.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/chessboard-A2.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/flat_chessboard.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/chessboard-esaii.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/meshes/chessboard-esaii.pdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/flat_chessboard.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_chessboard/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/pawnB4.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/aruco-204.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/front-204.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/front-204.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/aruco-204.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/meshes/pawnB4.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB4/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/meshes/aruco-211.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/meshes/aruco-211.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/meshes/horseB1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB1/horseB1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/meshes/aruco-210.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/meshes/aruco-210.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/meshes/towerB2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/towerB2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/white-pieces-to-print.pdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes/aruco-212.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes/horseB2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes/4x4_1000-212.svg.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/meshes/aruco-212.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseB2/horseB2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/aruco-314.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/aruco-314.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/front-314.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/bishopW2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/meshes/front-314.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW2/bishopW2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_with_support
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_with_support/model.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_with_support/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/meshes/aruco-312.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/meshes/horseW2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/meshes/aruco-312.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/horseW2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/black-pieces-to-print.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/black-pieces-to-print.pdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/meshes/d435.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/meshes/realsense.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails/1.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails/3.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails/2.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/thumbnails/4.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures/RealSense_Albedo.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures/RealSense_Roughness.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures/RealSense_Normal.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/textures/RealSense_Metalness.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/scripts
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/materials/scripts/model.material
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/model.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/realsense_camera/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/aruco-315.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/aruco-315.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/queenW.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/front-315.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/meshes/front-315.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenW/queenW.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/piece_generator.py
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/black.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/aruco-313.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/aruco-313.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/aruco-311.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/knightW1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/aruco-311.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/front-311.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/meshes/front-311.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/knightW1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/aruco-202.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/front-202.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/front-202.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/aruco-202.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/meshes/pawnB2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB2/pawnB2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/front-206.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/pawnB6.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/front-206.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/aruco-206.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/meshes/aruco-206.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/pawnB6.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB6/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/front-305.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/aruco-305.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/front-305.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/aruco-305.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/meshes/pawnW5.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/pawnW5.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW5/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/pawnW3.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/aruco-303.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/aruco-303.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/front-303.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/front-303.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/meshes/pawnW3.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW3/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera-plugin
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera-plugin/camera-plugin.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera-plugin/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/aruco-306.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/front-306.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/pawnW6.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/aruco-306.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/meshes/front-306.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW6/pawnW6.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/white-pieces-to-print.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/meshes/aruco-310.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/meshes/aruco-310.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/meshes/towerW2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW2/towerW2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/meshes/aruco-309.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/meshes/aruco-309.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/meshes/towerW1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerW1/towerW1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/front-208.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/aruco-208.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/aruco-208.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/front-208.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/meshes/pawnB8.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/pawnB8.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB8/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/front-301.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/aruco-301.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/aruco-301.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/pawnW1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/meshes/front-301.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/pawnW1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/front-308.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/pawnW8.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/aruco-308.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/aruco-308.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/meshes/front-308.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/pawnW8.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW8/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/aruco-203.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/pawnB3.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/front-203.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/aruco-203.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/meshes/front-203.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB3/pawnB3.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/front-212.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/aruco-212.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/front-212.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/knightB2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/aruco-214.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/aruco-214.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/meshes/aruco-212.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/knightB2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/white.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/pawnW4.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/front-304.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/front-304.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/aruco-304.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/meshes/aruco-304.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/pawnW4.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW4/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/meshes/aruco-311.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/meshes/aruco-311.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/meshes/horseW1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/horseW1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/horseW1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/pawnB5.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/aruco-205.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/front-205.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/aruco-205.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/front-205.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/meshes/pawnB5.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB5/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/aruco-310.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/aruco-310.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/rookW2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/front-310.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/meshes/front-310.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW2/rookW2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/untitled.blend1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/untitled.blend
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/aruco-312.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/aruco-314.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/aruco-314.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/front-312.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/knightW2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/aruco-312.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/meshes/front-312.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightW2/knightW2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/queenB.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/aruco-215.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/aruco-215.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/front-215.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/meshes/front-215.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/queenB.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/queenB/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/aruco-216.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/kingB.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/front-216.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/aruco-216.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/meshes/front-216.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/kingB.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingB/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/bishopW1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/aruco-313.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/aruco-313.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/front-313.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/meshes/front-313.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/bishopW1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopW1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/front-214.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/aruco-214.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/aruco-214.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/front-214.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/meshes/bishopB2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/bishopB2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/aruco-211.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/aruco-211.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/aruco-213.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/front-211.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/front-211.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/knightB1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/meshes/aruco-213.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/knightB1/knightB1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/chessboard.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/chessboard.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/chessboard.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/aruco-100.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/aruco-103.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/aruco-101.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/meshes/aruco-102.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/chessboard.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/chessboard/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/pawnW2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/front-302.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/front-302.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/aruco-302.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/meshes/aruco-302.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/pawnW2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnW2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/piece_generator.blend1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/front-316.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/kingW.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/aruco-316.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/front-316.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/meshes/aruco-316.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/kingW/kingW.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/meshes/camera_support.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/meshes/camera_support.blend
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/camera_support/camera_support.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/aruco-201.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/front-201.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/pawnB1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/aruco-201.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/meshes/front-201.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/pawnB1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/aruco-207.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/aruco-207.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/front-207.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/pawnB7.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/meshes/front-207.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/pawnB7.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/pawnB7/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/aruco-210.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/front-210.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/front-210.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/aruco-210.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/meshes/rookB2.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB2/rookB2.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/piece_generator.blend
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/meshes/flat_support.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/meshes/flat_support.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/flat_support.urdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/flat_support/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/meshes/towerB1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/meshes/aruco-209.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/meshes/aruco-209.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/towerB1/towerB1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/aruco-309.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/rookW1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/aruco-309.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/front-309.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/meshes/front-309.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookW1/rookW1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/rookB1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/front-209.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/aruco-209.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/front-209.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/meshes/aruco-209.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/rookB1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/rookB1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/aruco-213.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/front-213.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/aruco-213.svg
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/bishopB1.dae
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/meshes/front-213.png
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/bishopB1.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//models/bishopB1/model.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//worlds
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//worlds/flat_chesslab_simple.world
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//worlds/ris_chesslab.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//worlds/flat_chesslab.sdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//urdf
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//urdf/chesslab_gz.urdf.xacro
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//urdf/chesslab.urdf.xacro
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//rviz
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//rviz/chesslab_setup2_demo.rviz
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//rviz/chesslab_setup2_gz.rviz
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3/physical_parameters.yaml
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3/visual_parameters.yaml
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3/joint_limits.yaml
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/initial_positions.yaml
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3e
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3e/physical_parameters.yaml
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3e/visual_parameters.yaml
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/ur3e/joint_limits.yaml
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/chesslab_controllers.yaml
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2//config/gui.config
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/ament_index/resource_index/package_run_dependencies/chesslab_setup2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/ament_index/resource_index/parent_prefix_path/chesslab_setup2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/environment/ament_prefix_path.sh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/environment/ament_prefix_path.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/environment/path.sh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/environment/path.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/local_setup.bash
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/local_setup.sh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/local_setup.zsh
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/local_setup.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/package.dsv
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/ament_index/resource_index/packages/chesslab_setup2
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/cmake/chesslab_setup2Config.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/cmake/chesslab_setup2Config-version.cmake
+-- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/chesslab_setup2/share/chesslab_setup2/package.xml

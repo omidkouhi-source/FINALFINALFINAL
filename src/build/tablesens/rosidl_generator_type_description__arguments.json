@@ -1,0 +1,15 @@
+{
+  "package_name": "tablesens",
+  "output_dir": "/home/omid/data/colcon_ws1FW/src/final_work/src/build/tablesens/rosidl_generator_type_description/tablesens",
+  "idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/build/tablesens/rosidl_adapter/tablesens:msg/MarkerFix.idl",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/build/tablesens/rosidl_adapter/tablesens:msg/MarkerFixList.idl",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/build/tablesens/rosidl_adapter/tablesens:srv/ConfigureFromService.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

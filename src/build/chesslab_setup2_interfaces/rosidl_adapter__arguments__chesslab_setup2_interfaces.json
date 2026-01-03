@@ -1,0 +1,15 @@
+{
+  "package_name": "chesslab_setup2_interfaces",
+  "non_idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:msg/InverseKinematicsSolution.msg",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:srv/InverseKinematicsSimple.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:srv/SetObjPose.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:srv/SetRobConf.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:srv/AttachObj.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:srv/DetachObj.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:srv/DetectPiecePoses.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:srv/GetPieceLocation.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:srv/VerifyPickPlace.srv",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/chesslab_setup2_interfaces:srv/ValidateChessAction.srv"
+  ]
+}

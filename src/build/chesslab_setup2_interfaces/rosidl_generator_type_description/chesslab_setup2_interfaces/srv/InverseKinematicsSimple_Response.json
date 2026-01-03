@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "chesslab_setup2_interfaces/srv/InverseKinematicsSimple_Response",
+      "fields": [
+        {
+          "name": "ik_solution",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "chesslab_setup2_interfaces/msg/InverseKinematicsSolution"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "status",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "chesslab_setup2_interfaces/msg/InverseKinematicsSolution",
+        "fields": [
+          {
+            "name": "ik",
+            "type": {
+              "type_id": 155,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "chesslab_setup2_interfaces/srv/InverseKinematicsSimple_Response",
+      "hash_string": "RIHS01_97422066ac5dd68d9db6a4fcab2431b98e804f7ecdd44f34d4e6778758957d3d"
+    },
+    {
+      "type_name": "chesslab_setup2_interfaces/msg/InverseKinematicsSolution",
+      "hash_string": "RIHS01_683c197b81e990a71514e9f3c27dcf34cecb98754799217d2b65411838f70ece"
+    }
+  ]
+}

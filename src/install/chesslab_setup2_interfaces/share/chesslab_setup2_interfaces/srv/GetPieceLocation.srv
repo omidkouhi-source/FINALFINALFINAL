@@ -1,0 +1,8 @@
+# Service to get the location of a given chess piece
+# Request: piece aruco id
+int16 piece_aruco_id
+---
+# Response: success status and pose
+bool success
+geometry_msgs/Pose pose
+string message

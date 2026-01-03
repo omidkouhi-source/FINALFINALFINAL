@@ -1,0 +1,10 @@
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/uninstall.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/sensing_module_uninstall.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/sensing_node.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/test.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/edit_cache.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/rebuild_cache.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/list_install_components.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/install.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/install/local.dir
+/home/omid/data/colcon_ws1FW/src/final_work/src/build/sensing_module/CMakeFiles/install/strip.dir

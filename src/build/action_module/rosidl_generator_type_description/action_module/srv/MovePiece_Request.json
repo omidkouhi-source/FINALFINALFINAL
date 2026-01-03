@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "action_module/srv/MovePiece_Request",
+      "fields": [
+        {
+          "name": "aruco_id",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "target_square",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "action_module/srv/MovePiece_Request",
+      "hash_string": "RIHS01_b1a203083e0727ad3f8bbdaab224364fd6984a720dcd8ab510d250ffecc7f14a"
+    }
+  ]
+}

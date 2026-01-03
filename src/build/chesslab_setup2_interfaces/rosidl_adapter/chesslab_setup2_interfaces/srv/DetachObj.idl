@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chesslab_setup2_interfaces/srv/DetachObj.srv
+// generated code does not contain a copyright notice
+
+
+module chesslab_setup2_interfaces {
+  module srv {
+    struct DetachObj_Request {
+      int16 objarucoid;
+    };
+    struct DetachObj_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

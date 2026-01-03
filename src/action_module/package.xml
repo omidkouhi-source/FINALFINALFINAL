@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>action_module</name>
+  <version>0.1.0</version>
+  <description>Action-based execution system for smooth pick-place using IK</description>
+
+  <maintainer email="you@example.com">Costin</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>kinenikros2</build_depend>
+  <build_depend>planning_module</build_depend>
+  <build_depend>robotiq_85_gripper_server</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>chesslab_setup2_interfaces</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>tf2</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>kinenikros2</exec_depend>
+  <exec_depend>planning_module</exec_depend>
+  <exec_depend>robotiq_85_gripper_server</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+  <exec_depend>chesslab_setup2_interfaces</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

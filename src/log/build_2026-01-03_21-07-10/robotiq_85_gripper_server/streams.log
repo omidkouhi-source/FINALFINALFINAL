@@ -1,0 +1,382 @@
+[0.048s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server
+[0.236s] -- The C compiler identification is GNU 13.3.0
+[0.430s] -- The CXX compiler identification is GNU 13.3.0
+[0.576s] -- Detecting C compiler ABI info
+[1.037s] -- Detecting C compiler ABI info - done
+[1.077s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.078s] -- Detecting C compile features
+[1.079s] -- Detecting C compile features - done
+[1.111s] -- Detecting CXX compiler ABI info
+[1.470s] -- Detecting CXX compiler ABI info - done
+[1.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.525s] -- Detecting CXX compile features
+[1.525s] -- Detecting CXX compile features - done
+[1.541s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.123s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.607s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.845s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.918s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.001s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.092s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.459s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.476s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.805s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.884s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.968s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.303s] -- Found control_msgs: 5.5.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[4.825s] -- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[4.858s] -- Found robotiq_85_msgs: 1.0.1 (/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/share/robotiq_85_msgs/cmake)
+[4.927s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.002s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.020s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.960s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[9.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.453s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.826s] -- Found PythonExtra: /usr/bin/python3  
+[12.285s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[12.465s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.467s] -- Configured cppcheck include dirs: 
+[12.468s] -- Configured cppcheck exclude dirs and/or files: 
+[12.471s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.471s] -- Configured 'flake8' exclude dirs and/or files: 
+[12.474s] -- Added test 'lint_cmake' to check CMake code style
+[12.477s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.482s] -- Added test 'uncrustify' to check C / C++ code style
+[12.482s] -- Configured uncrustify additional arguments: 
+[12.485s] -- Added test 'xmllint' to check XML markup files
+[12.503s] -- Configuring done (12.4s)
+[12.721s] -- Generating done (0.2s)
+[12.787s] -- Build files have been written to: /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server
+[12.824s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server -DCMAKE_INSTALL_PREFIX=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server
+[12.825s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server -- -j8 -l8
+[12.988s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[13.733s] [  1%] Built target robotiq_85_gripper_server__rosidl_generator_type_description
+[13.835s] [  1%] Built target ament_cmake_python_copy_robotiq_85_gripper_server
+[13.870s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.453s] [  5%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_c.dir/rosidl_generator_c/robotiq_85_gripper_server/srv/detail/gripper_order__description.c.o[0m
+[16.631s] [  6%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_c.dir/rosidl_generator_c/robotiq_85_gripper_server/srv/detail/gripper_open__type_support.c.o[0m
+[16.770s] [  8%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_c.dir/rosidl_generator_c/robotiq_85_gripper_server/srv/detail/gripper_close__description.c.o[0m
+[16.942s] [ 10%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_c.dir/rosidl_generator_c/robotiq_85_gripper_server/srv/detail/gripper_close__functions.c.o[0m
+[17.201s] [ 12%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_c.dir/rosidl_generator_c/robotiq_85_gripper_server/srv/detail/gripper_close__type_support.c.o[0m
+[17.335s] [ 13%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_c.dir/rosidl_generator_c/robotiq_85_gripper_server/srv/detail/gripper_open__functions.c.o[0m
+[17.593s] [ 15%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_c.dir/rosidl_generator_c/robotiq_85_gripper_server/srv/detail/gripper_open__description.c.o[0m
+[17.765s] [ 17%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_c.dir/rosidl_generator_c/robotiq_85_gripper_server/srv/detail/gripper_order__type_support.c.o[0m
+[17.905s] [ 18%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_c.dir/rosidl_generator_c/robotiq_85_gripper_server/srv/detail/gripper_order__functions.c.o[0m
+[18.173s] [ 20%] [32m[1mLinking C shared library librobotiq_85_gripper_server__rosidl_generator_c.so[0m
+[18.299s] [ 20%] Built target robotiq_85_gripper_server__rosidl_generator_c
+[19.229s] running egg_info
+[19.232s] creating robotiq_85_gripper_server.egg-info
+[19.324s] writing robotiq_85_gripper_server.egg-info/PKG-INFO
+[19.324s] writing dependency_links to robotiq_85_gripper_server.egg-info/dependency_links.txt
+[19.325s] writing top-level names to robotiq_85_gripper_server.egg-info/top_level.txt
+[19.326s] writing manifest file 'robotiq_85_gripper_server.egg-info/SOURCES.txt'
+[19.591s] reading manifest file 'robotiq_85_gripper_server.egg-info/SOURCES.txt'
+[19.593s] writing manifest file 'robotiq_85_gripper_server.egg-info/SOURCES.txt'
+[19.684s] [ 20%] Built target ament_cmake_python_build_robotiq_85_gripper_server_egg
+[19.721s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.981s] [ 24%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotiq_85_gripper_server/srv/gripper_order__type_support.cpp.o[0m
+[21.103s] [ 25%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotiq_85_gripper_server/srv/gripper_close__type_support.cpp.o[0m
+[21.221s] [ 27%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotiq_85_gripper_server/srv/gripper_open__type_support.cpp.o[0m
+[21.367s] [ 29%] [32m[1mLinking CXX shared library librobotiq_85_gripper_server__rosidl_typesupport_c.so[0m
+[21.459s] [ 29%] Built target robotiq_85_gripper_server__rosidl_typesupport_c
+[21.482s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.872s] [ 32%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotiq_85_gripper_server/srv/detail/gripper_order__type_support.c.o[0m
+[23.036s] [ 34%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotiq_85_gripper_server/srv/detail/gripper_close__type_support.c.o[0m
+[23.208s] [ 36%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotiq_85_gripper_server/srv/detail/gripper_open__type_support.c.o[0m
+[23.364s] [ 37%] [32m[1mLinking C shared library librobotiq_85_gripper_server__rosidl_typesupport_introspection_c.so[0m
+[23.447s] [ 37%] Built target robotiq_85_gripper_server__rosidl_typesupport_introspection_c
+[23.479s] [ 39%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.515s] [ 41%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[24.768s] [ 44%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotiq_85_gripper_server/srv/detail/gripper_order__type_support_c.cpp.o[0m
+[24.768s] [ 44%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotiq_85_gripper_server/srv/detail/gripper_open__type_support_c.cpp.o[0m
+[25.625s] [ 44%] Built target robotiq_85_gripper_server__cpp
+[25.697s] [ 46%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[26.696s] [ 48%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotiq_85_gripper_server/srv/detail/gripper_close__type_support_c.cpp.o[0m
+[27.118s] [ 51%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotiq_85_gripper_server/srv/gripper_order__type_support.cpp.o[0m
+[27.119s] [ 51%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotiq_85_gripper_server/srv/gripper_open__type_support.cpp.o[0m
+[28.707s] [ 53%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotiq_85_gripper_server/srv/gripper_close__type_support.cpp.o[0m
+[28.735s] [ 55%] [32m[1mLinking CXX shared library librobotiq_85_gripper_server__rosidl_typesupport_fastrtps_c.so[0m
+[28.903s] [ 55%] Built target robotiq_85_gripper_server__rosidl_typesupport_fastrtps_c
+[30.066s] [ 56%] [32m[1mLinking CXX shared library librobotiq_85_gripper_server__rosidl_typesupport_cpp.so[0m
+[30.320s] [ 56%] Built target robotiq_85_gripper_server__rosidl_typesupport_cpp
+[30.357s] [ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[31.970s] [ 60%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotiq_85_gripper_server/srv/detail/gripper_order__type_support.cpp.o[0m
+[33.415s] [ 62%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotiq_85_gripper_server/srv/detail/gripper_close__type_support.cpp.o[0m
+[34.912s] [ 63%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotiq_85_gripper_server/srv/detail/gripper_open__type_support.cpp.o[0m
+[36.406s] [ 65%] [32m[1mLinking CXX shared library librobotiq_85_gripper_server__rosidl_typesupport_introspection_cpp.so[0m
+[36.657s] [ 65%] Built target robotiq_85_gripper_server__rosidl_typesupport_introspection_cpp
+[36.726s] [ 67%] [32mBuilding CXX object CMakeFiles/gripper_server_sim.dir/src/gripper_server_sim.cpp.o[0m
+[44.857s] [01m[K/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server/src/gripper_server_sim.cpp:[m[K In constructor ‘[01m[KGripperServerNode::[01;32m[KGripperServerNode[m[K()[m[K’:
+[44.857s] [01m[K/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server/src/gripper_server_sim.cpp:35:97:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = robotiq_85_gripper_server::srv::GripperOrder; CallbackT = std::_Bind<void (GripperServerNode::*(GripperServerNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<robotiq_85_gripper_server::srv::GripperOrder_Request_<std::allocator<void> > >, std::shared_ptr<robotiq_85_gripper_server::srv::GripperOrder_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<robotiq_85_gripper_server::srv::GripperOrder> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[44.858s]    35 | e_ = [01;35m[Kcreate_service<robotiq_85_gripper_server::srv::GripperOrder>([m[K
+[44.858s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[44.858s] 
+[44.858s]    36 | 
+[44.859s]       |                                                                   
+[44.859s] 
+[44.859s]    37 | [01;35m[KerverNode::handle_GripperOrder, this, std::placeholders::_1,    std::placeholders::_2), rmw_qos_profile_services_default, this->cb_group_)[m[K;
+[44.860s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[44.860s] 
+[44.860s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+[44.860s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[44.861s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[44.861s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[44.861s]                  from [01m[K/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server/src/gripper_server_sim.cpp:1[m[K:
+[44.862s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:192:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[44.862s]   192 | [01;36m[KNode[m[K::create_service(
+[44.862s]       | [01;36m[K^~~~[m[K
+[44.863s] [01m[K/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server/src/gripper_server_sim.cpp:40:95:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = robotiq_85_gripper_server::srv::GripperOpen; CallbackT = std::_Bind<void (GripperServerNode::*(GripperServerNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<robotiq_85_gripper_server::srv::GripperOpen_Request_<std::allocator<void> > >, std::shared_ptr<robotiq_85_gripper_server::srv::GripperOpen_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<robotiq_85_gripper_server::srv::GripperOpen> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[44.864s]    40 | ce_ = [01;35m[Kcreate_service<robotiq_85_gripper_server::srv::GripperOpen>([m[K
+[44.864s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[44.864s] 
+[44.865s]    41 | 
+[44.865s]       |                                                                   
+[44.865s] 
+[44.866s]    42 | [01;35m[KrServerNode::handle_Open, this, std::placeholders::_1, std::placeholders::_2), rmw_qos_profile_services_default, this->cb_group_)[m[K;
+[44.866s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[44.866s] 
+[44.866s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:192:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[44.867s]   192 | [01;36m[KNode[m[K::create_service(
+[44.867s]       | [01;36m[K^~~~[m[K
+[44.870s] [01m[K/home/omid/data/colcon_ws1FW/src/final_work/src/robotiq_85_gripper_server/src/gripper_server_sim.cpp:45:97:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = robotiq_85_gripper_server::srv::GripperClose; CallbackT = std::_Bind<void (GripperServerNode::*(GripperServerNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<robotiq_85_gripper_server::srv::GripperClose_Request_<std::allocator<void> > >, std::shared_ptr<robotiq_85_gripper_server::srv::GripperClose_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<robotiq_85_gripper_server::srv::GripperClose> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[44.870s]    45 | e_ = [01;35m[Kcreate_service<robotiq_85_gripper_server::srv::GripperClose>([m[K
+[44.870s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[44.871s] 
+[44.871s]    46 | 
+[44.871s]       |                                                                   
+[44.872s] 
+[44.872s]    47 | [01;35m[KerverNode::handle_Close, this, std::placeholders::_1, std::placeholders::_2), rmw_qos_profile_services_default, this->cb_group_)[m[K;
+[44.872s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[44.873s] 
+[44.873s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:192:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[44.874s]   192 | [01;36m[KNode[m[K::create_service(
+[44.874s]       | [01;36m[K^~~~[m[K
+[56.782s] [ 68%] [32m[1mLinking CXX executable gripper_server_sim[0m
+[57.518s] [ 68%] Built target gripper_server_sim
+[57.554s] [ 70%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[57.584s] [ 72%] [32mBuilding CXX object CMakeFiles/gripper_server.dir/src/gripper_server.cpp.o[0m
+[59.185s] [ 74%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotiq_85_gripper_server/srv/detail/dds_fastrtps/gripper_order__type_support.cpp.o[0m
+[60.845s] [ 75%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotiq_85_gripper_server/srv/detail/dds_fastrtps/gripper_close__type_support.cpp.o[0m
+[62.926s] [ 77%] [32mBuilding CXX object CMakeFiles/robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotiq_85_gripper_server/srv/detail/dds_fastrtps/gripper_open__type_support.cpp.o[0m
+[65.054s] [ 79%] [32m[1mLinking CXX shared library librobotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp.so[0m
+[65.327s] [ 79%] Built target robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp
+[65.396s] [ 79%] Built target robotiq_85_gripper_server
+[65.466s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[69.225s] [ 81%] Built target robotiq_85_gripper_server__py
+[78.009s] [ 82%] [32m[1mLinking CXX executable gripper_server[0m
+[78.725s] [ 82%] Built target gripper_server
+[78.798s] [ 84%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_py.dir/rosidl_generator_py/robotiq_85_gripper_server/srv/_gripper_order_s.c.o[0m
+[79.383s] [ 86%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_py.dir/rosidl_generator_py/robotiq_85_gripper_server/srv/_gripper_close_s.c.o[0m
+[79.958s] [ 87%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server__rosidl_generator_py.dir/rosidl_generator_py/robotiq_85_gripper_server/srv/_gripper_open_s.c.o[0m
+[80.483s] [ 89%] [32m[1mLinking C shared library librobotiq_85_gripper_server__rosidl_generator_py.so[0m
+[80.649s] [ 89%] Built target robotiq_85_gripper_server__rosidl_generator_py
+[80.725s] [ 91%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robotiq_85_gripper_server/_robotiq_85_gripper_server_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[81.266s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_fastrtps_c.so[0m
+[81.386s] [ 93%] Built target robotiq_85_gripper_server_s__rosidl_typesupport_fastrtps_c
+[81.454s] [ 94%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server_s__rosidl_typesupport_c.dir/rosidl_generator_py/robotiq_85_gripper_server/_robotiq_85_gripper_server_s.ep.rosidl_typesupport_c.c.o[0m
+[81.878s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_c.so[0m
+[81.946s] [ 96%] Built target robotiq_85_gripper_server_s__rosidl_typesupport_c
+[81.991s] [ 98%] [32mBuilding C object CMakeFiles/robotiq_85_gripper_server_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robotiq_85_gripper_server/_robotiq_85_gripper_server_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[82.361s] [100%] [32m[1mLinking C shared module rosidl_generator_py/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_introspection_c.so[0m
+[82.444s] [100%] Built target robotiq_85_gripper_server_s__rosidl_typesupport_introspection_c
+[82.470s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server -- -j8 -l8
+[82.473s] Invoking command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server
+[82.492s] -- Install configuration: ""
+[82.492s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/launch
+[82.493s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/launch/robotiq_85_gripper_server.launch.py
+[82.493s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv
+[82.493s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperClose.srv
+[82.494s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperOpen.srv
+[82.494s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperOrder.srv
+[82.494s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/ament_index/resource_index/rosidl_interfaces/robotiq_85_gripper_server
+[82.495s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperOrder.json
+[82.495s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperOpen.json
+[82.495s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperClose.json
+[82.496s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server
+[82.496s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv
+[82.496s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/gripper_order.h
+[82.497s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail
+[82.497s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__functions.h
+[82.497s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__functions.h
+[82.498s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__type_support.c
+[82.498s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__description.c
+[82.499s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__type_support.c
+[82.499s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__functions.c
+[82.500s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__description.c
+[82.500s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__type_support.h
+[82.500s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__description.c
+[82.501s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__struct.h
+[82.501s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__type_support.h
+[82.502s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__type_support.c
+[82.502s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__functions.c
+[82.503s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__type_support.h
+[82.503s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__struct.h
+[82.503s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__functions.c
+[82.504s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__struct.h
+[82.504s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__functions.h
+[82.505s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/gripper_close.h
+[82.505s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/gripper_open.h
+[82.506s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg
+[82.507s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg/rosidl_generator_c__visibility_control.h
+[82.507s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/environment/library_path.sh
+[82.508s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/environment/library_path.dsv
+[82.508s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_generator_c.so
+[82.508s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_generator_c.so" to ""
+[82.509s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server
+[82.509s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv
+[82.510s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail
+[82.510s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__rosidl_typesupport_fastrtps_c.h
+[82.510s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__rosidl_typesupport_fastrtps_c.h
+[82.511s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__rosidl_typesupport_fastrtps_c.h
+[82.511s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg
+[82.511s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[82.512s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_fastrtps_c.so
+[82.512s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_fastrtps_c.so" to ""
+[82.512s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server
+[82.513s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv
+[82.513s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail
+[82.514s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__type_support.hpp
+[82.514s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__struct.hpp
+[82.514s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__builder.hpp
+[82.514s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__traits.hpp
+[82.515s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__type_support.hpp
+[82.515s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__traits.hpp
+[82.515s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__builder.hpp
+[82.516s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__struct.hpp
+[82.516s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__type_support.hpp
+[82.516s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__struct.hpp
+[82.516s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__traits.hpp
+[82.517s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__builder.hpp
+[82.517s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/gripper_open.hpp
+[82.517s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/gripper_order.hpp
+[82.518s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/gripper_close.hpp
+[82.518s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg
+[82.518s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg/rosidl_generator_cpp__visibility_control.hpp
+[82.519s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server
+[82.519s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv
+[82.519s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail
+[82.520s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__rosidl_typesupport_fastrtps_cpp.hpp
+[82.520s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/dds_fastrtps
+[82.520s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__rosidl_typesupport_fastrtps_cpp.hpp
+[82.520s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__rosidl_typesupport_fastrtps_cpp.hpp
+[82.521s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg
+[82.521s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[82.521s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp.so
+[82.522s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_fastrtps_cpp.so" to ""
+[82.522s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server
+[82.522s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv
+[82.523s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail
+[82.523s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__rosidl_typesupport_introspection_c.h
+[82.523s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__type_support.c
+[82.524s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__type_support.c
+[82.524s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__rosidl_typesupport_introspection_c.h
+[82.525s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__type_support.c
+[82.525s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__rosidl_typesupport_introspection_c.h
+[82.525s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg
+[82.525s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[82.526s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_introspection_c.so
+[82.526s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_introspection_c.so" to ""
+[82.526s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_c.so
+[82.526s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_c.so" to ""
+[82.527s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server
+[82.527s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv
+[82.527s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail
+[82.528s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__rosidl_typesupport_introspection_cpp.hpp
+[82.528s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__type_support.cpp
+[82.528s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_open__rosidl_typesupport_introspection_cpp.hpp
+[82.529s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__rosidl_typesupport_introspection_cpp.hpp
+[82.529s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_close__type_support.cpp
+[82.529s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/include/robotiq_85_gripper_server/robotiq_85_gripper_server/srv/detail/gripper_order__type_support.cpp
+[82.530s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_introspection_cpp.so
+[82.530s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_introspection_cpp.so" to ""
+[82.530s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_cpp.so
+[82.531s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_typesupport_cpp.so" to ""
+[82.531s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/environment/pythonpath.sh
+[82.531s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/environment/pythonpath.dsv
+[82.532s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server-0.0.0-py3.12.egg-info
+[82.532s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server-0.0.0-py3.12.egg-info/SOURCES.txt
+[82.532s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server-0.0.0-py3.12.egg-info/PKG-INFO
+[82.533s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server-0.0.0-py3.12.egg-info/top_level.txt
+[82.533s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server-0.0.0-py3.12.egg-info/dependency_links.txt
+[82.533s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server
+[82.534s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv
+[82.534s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/_gripper_order_s.c
+[82.534s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/_gripper_close.py
+[82.535s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/_gripper_open.py
+[82.535s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/_gripper_order.py
+[82.535s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/_gripper_close_s.c
+[82.535s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/__init__.py
+[82.536s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/_gripper_open_s.c
+[82.536s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/_robotiq_85_gripper_server_s.ep.rosidl_typesupport_introspection_c.c
+[82.536s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/_robotiq_85_gripper_server_s.ep.rosidl_typesupport_c.c
+[82.537s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/_robotiq_85_gripper_server_s.ep.rosidl_typesupport_fastrtps_c.c
+[82.537s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_introspection_c.so
+[82.537s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/__init__.py
+[82.537s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_c.so
+[82.537s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_fastrtps_c.so
+[82.699s] Listing '/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server'...
+[82.700s] Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/__init__.py'...
+[82.700s] Listing '/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv'...
+[82.700s] Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/__init__.py'...
+[82.701s] Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/_gripper_close.py'...
+[82.701s] Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/_gripper_open.py'...
+[82.702s] Compiling '/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/srv/_gripper_order.py'...
+[82.717s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_fastrtps_c.so
+[82.718s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_fastrtps_c.so" to ""
+[82.719s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_introspection_c.so
+[82.720s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_introspection_c.so" to ""
+[82.720s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_c.so
+[82.721s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/python3.12/site-packages/robotiq_85_gripper_server/robotiq_85_gripper_server_s__rosidl_typesupport_c.so" to ""
+[82.722s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_generator_py.so
+[82.723s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/librobotiq_85_gripper_server__rosidl_generator_py.so" to ""
+[82.723s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperOrder.idl
+[82.724s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperOpen.idl
+[82.724s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperClose.idl
+[82.725s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperOrder.srv
+[82.725s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperOpen.srv
+[82.725s] -- Up-to-date: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/srv/GripperClose.srv
+[82.726s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/robotiq_85_gripper_server/gripper_server
+[82.732s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/robotiq_85_gripper_server/gripper_server" to ""
+[82.733s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/robotiq_85_gripper_server/gripper_server_sim
+[82.739s] -- Set non-toolchain portion of runtime path of "/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/lib/robotiq_85_gripper_server/gripper_server_sim" to ""
+[82.740s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/ament_index/resource_index/package_run_dependencies/robotiq_85_gripper_server
+[82.740s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/ament_index/resource_index/parent_prefix_path/robotiq_85_gripper_server
+[82.741s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/environment/ament_prefix_path.sh
+[82.741s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/environment/ament_prefix_path.dsv
+[82.742s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/environment/path.sh
+[82.742s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/environment/path.dsv
+[82.742s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/local_setup.bash
+[82.743s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/local_setup.sh
+[82.743s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/local_setup.zsh
+[82.744s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/local_setup.dsv
+[82.744s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/package.dsv
+[82.745s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/ament_index/resource_index/packages/robotiq_85_gripper_server
+[82.745s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/export_robotiq_85_gripper_server__rosidl_generator_cExport.cmake
+[82.746s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/export_robotiq_85_gripper_server__rosidl_generator_cExport-noconfig.cmake
+[82.746s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/export_robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cExport.cmake
+[82.747s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/export_robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[82.747s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/export_robotiq_85_gripper_server__rosidl_generator_cppExport.cmake
+[82.748s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/export_robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cppExport.cmake
+[82.748s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/export_robotiq_85_gripper_server__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[82.749s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_server__rosidl_typesupport_introspection_cExport.cmake
+[82.749s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_server__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[82.749s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_server__rosidl_typesupport_cExport.cmake
+[82.750s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_server__rosidl_typesupport_cExport-noconfig.cmake
+[82.750s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_server__rosidl_typesupport_introspection_cppExport.cmake
+[82.751s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_server__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[82.751s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_server__rosidl_typesupport_cppExport.cmake
+[82.752s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_server__rosidl_typesupport_cppExport-noconfig.cmake
+[82.752s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/export_robotiq_85_gripper_server__rosidl_generator_pyExport.cmake
+[82.753s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/export_robotiq_85_gripper_server__rosidl_generator_pyExport-noconfig.cmake
+[82.753s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[82.754s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/rosidl_cmake-extras.cmake
+[82.754s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[82.755s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/ament_cmake_export_libraries-extras.cmake
+[82.755s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/ament_cmake_export_targets-extras.cmake
+[82.755s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[82.756s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[82.756s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_serverConfig.cmake
+[82.757s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/cmake/robotiq_85_gripper_serverConfig-version.cmake
+[82.757s] -- Installing: /home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_gripper_server/share/robotiq_85_gripper_server/package.xml
+[82.764s] Invoked command in '/home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server' returned '0': AMENT_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_driver/lib/python3.12/site-packages:/home/omid/data/colcon_ws1FW/src/final_work/src/install/robotiq_85_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/omid/data/colcon_ws1FW/src/final_work/src/build/robotiq_85_gripper_server

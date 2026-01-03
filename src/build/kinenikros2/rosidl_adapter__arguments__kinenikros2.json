@@ -1,0 +1,7 @@
+{
+  "package_name": "kinenikros2",
+  "non_idl_tuples": [
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/kinenikros2:msg/InverseKinematics.msg",
+    "/home/omid/data/colcon_ws1FW/src/final_work/src/kinenikros2:srv/InverseKinematics.srv"
+  ]
+}
