@@ -5,3 +5,18 @@ sensing_node:
     camera_frame: "camera_color_optical_frame"
     aruco_frame_prefix: "aruco"
     tf_timeout: 2.0
+    
+    # Marker-to-grasp offset (offset from ArUco marker center to grasp point)
+    # These values need calibration based on your specific setup
+    # The ArUco marker is typically on top of the chess piece, 
+    # so marker_grasp_offset_z should be negative to move the grasp point down
+    marker_grasp_offset_x: 0.0
+    marker_grasp_offset_y: 0.0
+    marker_grasp_offset_z: 0.0  # Adjust if marker is not at grasp height
+    
+    # When true, use actual detected Z coordinate from TF
+    # When false, use hardcoded piece height (legacy behavior)
+    use_detected_z: true
+    
+    # Enable detailed debug logging of transforms and poses
+    debug_mode: false

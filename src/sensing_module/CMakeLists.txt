@@ -39,8 +39,14 @@ install(TARGETS sensing_node
   DESTINATION lib/${PROJECT_NAME})
 
 # Install directories
-install(DIRECTORY launch config
+install(DIRECTORY launch config docs
   DESTINATION share/${PROJECT_NAME}/)
+
+# Install Python scripts
+install(PROGRAMS
+  scripts/validate_tf_chain.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

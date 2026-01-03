@@ -51,8 +51,13 @@ TFGraspBuilder::TFGraspBuilder(rclcpp::Node::SharedPtr node)
   if (!node_->has_parameter("place_retreat_z")) {
     node_->declare_parameter<double>("place_retreat_z", 0.24);
   }
+  if (!node_->has_parameter("debug_mode")) {
+    node_->declare_parameter<bool>("debug_mode", false);
+  }
+  
   world_frame_ = node_->get_parameter("world_frame").as_string();
   ik_base_frame_ = node_->get_parameter("ik_base_frame").as_string();
+  debug_mode_ = node_->get_parameter("debug_mode").as_bool();
 
   use_fixed_gripper_orientation_ =
       node_->get_parameter("use_fixed_gripper_orientation").as_bool();
@@ -67,6 +72,17 @@ TFGraspBuilder::TFGraspBuilder(rclcpp::Node::SharedPtr node)
   place_grasp_z_ = node_->get_parameter("place_grasp_z").as_double();
   place_approach_z_ = node_->get_parameter("place_approach_z").as_double();
   place_retreat_z_ = node_->get_parameter("place_retreat_z").as_double();
+  
+  if (debug_mode_) {
+    RCLCPP_INFO(node_->get_logger(), "[TFGraspBuilder] Debug mode enabled");
+    RCLCPP_INFO(node_->get_logger(), "  World frame: %s", world_frame_.c_str());
+    RCLCPP_INFO(node_->get_logger(), "  IK base frame: %s", ik_base_frame_.c_str());
+    RCLCPP_INFO(node_->get_logger(), "  Pick Z heights: grasp=%.3f, approach=%.3f, retreat=%.3f",
+                pick_grasp_z_, pick_approach_z_, pick_retreat_z_);
+    RCLCPP_INFO(node_->get_logger(), "  Place Z heights: grasp=%.3f, approach=%.3f, retreat=%.3f",
+                place_grasp_z_, place_approach_z_, place_retreat_z_);
+    RCLCPP_INFO(node_->get_logger(), "  Gripper RPY: (%.3f, %.3f, %.3f)", roll, pitch, yaw);
+  }
 }
 
 // ---------------------------
@@ -126,6 +142,12 @@ bool TFGraspBuilder::build_pick_poses_from_pose(const geometry_msgs::msg::Pose &
                                                 geometry_msgs::msg::Pose & grasp,
                                                 geometry_msgs::msg::Pose & retreat)
 {
+  if (debug_mode_) {
+    RCLCPP_INFO(node_->get_logger(), "[TFGraspBuilder] Building pick poses from object pose:");
+    RCLCPP_INFO(node_->get_logger(), "  Object pose (world frame): (%.4f, %.4f, %.4f)",
+                object_pose.position.x, object_pose.position.y, object_pose.position.z);
+  }
+  
   // Create poses with vertical offsets:
   grasp    = offset_pose(object_pose, 0.0, 0.0, pick_grasp_z_);
   approach = offset_pose(object_pose, 0.0, 0.0, pick_approach_z_);
@@ -134,6 +156,15 @@ bool TFGraspBuilder::build_pick_poses_from_pose(const geometry_msgs::msg::Pose &
   apply_gripper_orientation(grasp);
   apply_gripper_orientation(approach);
   apply_gripper_orientation(retreat);
+
+  if (debug_mode_) {
+    RCLCPP_INFO(node_->get_logger(), "  Pick approach (world): (%.4f, %.4f, %.4f) [z_offset=%.3f]",
+                approach.position.x, approach.position.y, approach.position.z, pick_approach_z_);
+    RCLCPP_INFO(node_->get_logger(), "  Pick grasp (world): (%.4f, %.4f, %.4f) [z_offset=%.3f]",
+                grasp.position.x, grasp.position.y, grasp.position.z, pick_grasp_z_);
+    RCLCPP_INFO(node_->get_logger(), "  Pick retreat (world): (%.4f, %.4f, %.4f) [z_offset=%.3f]",
+                retreat.position.x, retreat.position.y, retreat.position.z, pick_retreat_z_);
+  }
 
   // Broadcast TFs (optional visual debugging)
   auto timestamp = node_->now();
@@ -219,6 +250,14 @@ bool TFGraspBuilder::transform_to_ik_frame(const geometry_msgs::msg::Pose & worl
     try {
       auto out = tf_buffer_->transform(in, target, 1s);
       ik_pose = out.pose;
+      if (debug_mode_) {
+        RCLCPP_INFO(node_->get_logger(), "[TFGraspBuilder] Transform %s -> %s:",
+                    world_frame_.c_str(), target.c_str());
+        RCLCPP_INFO(node_->get_logger(), "  Input (world): (%.4f, %.4f, %.4f)",
+                    world_pose.position.x, world_pose.position.y, world_pose.position.z);
+        RCLCPP_INFO(node_->get_logger(), "  Output (IK frame): (%.4f, %.4f, %.4f)",
+                    ik_pose.position.x, ik_pose.position.y, ik_pose.position.z);
+      }
       return true;
     } catch (const tf2::TransformException & ex) {
       if (error) {

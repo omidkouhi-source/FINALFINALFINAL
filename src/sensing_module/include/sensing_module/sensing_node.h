@@ -53,6 +53,13 @@ private:
   std::string camera_frame_;
   std::string aruco_frame_prefix_;
   double tf_timeout_;
+  
+  // Marker-to-grasp offset parameters
+  double marker_grasp_offset_x_;
+  double marker_grasp_offset_y_;
+  double marker_grasp_offset_z_;
+  bool use_detected_z_;
+  bool debug_mode_;
 
   // Helper methods
   void initializePieceIds();

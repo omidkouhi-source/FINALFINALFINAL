@@ -223,6 +223,46 @@ To visualize the robot and pieces:
    - `pick_approach`, `pick_grasp`, `pick_retreat`
    - `place_approach`, `place_grasp`, `place_retreat`
 
+## Debugging Grasp Offset Issues
+
+If the gripper is consistently offset from the piece center:
+
+### Step 1: Enable Debug Mode
+
+```bash
+# Sensing module with debug logging
+ros2 launch sensing_module sensing_module.launch.py debug_mode:=true
+
+# Action module with debug logging
+ros2 launch action_module action.launch.py debug_mode:=true
+```
+
+### Step 2: Validate TF Chain
+
+```bash
+# Run the TF validation script
+ros2 run sensing_module validate_tf_chain.py
+
+# Or manually check transforms
+ros2 run tf2_ros tf2_echo world aruco_316
+ros2 run tf2_ros tf2_echo world base
+```
+
+### Step 3: Calibrate Marker-to-Grasp Offset
+
+If the gripper is off by a consistent amount:
+
+```bash
+ros2 launch sensing_module sensing_module.launch.py \
+    marker_grasp_offset_x:=0.005 \
+    marker_grasp_offset_y:=-0.002 \
+    marker_grasp_offset_z:=-0.01 \
+    use_detected_z:=true \
+    debug_mode:=true
+```
+
+See `src/sensing_module/docs/DEBUGGING_GUIDE.md` for detailed calibration instructions.
+
 ## Optional: Web UI
 
 You can use a lightweight web UI to pick a piece and choose a target square.

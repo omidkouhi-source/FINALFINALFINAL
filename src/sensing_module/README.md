@@ -162,10 +162,32 @@ ros2 service call /sensing_module/detect_piece_poses chesslab_setup2_interfaces/
 
 ## Parameters
 
+### Basic Parameters
+
 - `world_frame` (default: "world"): The reference frame for piece positions
 - `camera_frame` (default: "camera_color_optical_frame"): Camera frame name
 - `aruco_frame_prefix` (default: "aruco"): Prefix for ArUco marker frames
 - `tf_timeout` (default: 2.0): Timeout in seconds for TF lookups
+
+### Marker-to-Grasp Offset Parameters
+
+These parameters allow calibration of the offset from ArUco marker center to the actual grasp point:
+
+- `marker_grasp_offset_x` (default: 0.0): X offset in meters
+- `marker_grasp_offset_y` (default: 0.0): Y offset in meters  
+- `marker_grasp_offset_z` (default: 0.0): Z offset in meters (usually negative since marker is above grasp point)
+- `use_detected_z` (default: true): When true, uses actual detected Z from TF. When false, uses hardcoded piece heights.
+- `debug_mode` (default: false): Enable detailed logging of transforms and poses
+
+### Example with Offset Calibration
+
+```bash
+ros2 launch sensing_module sensing_module.launch.py \
+    marker_grasp_offset_x:=0.005 \
+    marker_grasp_offset_y:=-0.002 \
+    marker_grasp_offset_z:=-0.01 \
+    debug_mode:=true
+```
 
 ## Integration with Other Modules
 
@@ -177,6 +199,24 @@ The sensing module is designed to work with:
 4. **Chesslab Setup**: Uses the setup demo services to update piece poses in RViz
 
 ## Troubleshooting
+
+### Grasp Offset Problems
+
+If the robot gripper is consistently offset from the piece center:
+
+1. **Enable debug mode** to see raw vs. final poses:
+   ```bash
+   ros2 launch sensing_module sensing_module.launch.py debug_mode:=true
+   ```
+
+2. **Run the TF validation script**:
+   ```bash
+   ros2 run sensing_module validate_tf_chain.py
+   ```
+
+3. **Calibrate the offset** by adjusting marker_grasp_offset parameters
+
+See the detailed [Debugging Guide](docs/DEBUGGING_GUIDE.md) for step-by-step calibration instructions.
 
 ### No pieces detected
 

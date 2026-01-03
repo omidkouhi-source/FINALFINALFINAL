@@ -37,6 +37,7 @@ def generate_launch_description():
     traj_steps = LaunchConfiguration("traj_steps")
     traj_dt = LaunchConfiguration("traj_dt")
     wait_for_traj = LaunchConfiguration("wait_for_traj")
+    debug_mode = LaunchConfiguration("debug_mode")
 
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -204,6 +205,11 @@ def generate_launch_description():
             default_value="true",
             description="Wait for each trajectory to finish before the next.",
         ),
+        DeclareLaunchArgument(
+            "debug_mode",
+            default_value="false",
+            description="Enable detailed debug logging of transforms and poses.",
+        ),
 
         # IK SERVER
         Node(
@@ -276,6 +282,7 @@ def generate_launch_description():
                 "traj_steps": traj_steps,
                 "traj_dt": traj_dt,
                 "wait_for_traj": wait_for_traj,
+                "debug_mode": debug_mode,
             }],
         )
     ])

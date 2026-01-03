@@ -56,6 +56,7 @@ private:
   double place_grasp_z_;
   double place_approach_z_;
   double place_retreat_z_;
+  bool debug_mode_;
 };
 
 } // namespace action_module

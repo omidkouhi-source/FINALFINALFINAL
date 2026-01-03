@@ -16,16 +16,33 @@ SensingNode::SensingNode() : Node("sensing_node")
   this->declare_parameter<std::string>("camera_frame", "camera_color_optical_frame");
   this->declare_parameter<std::string>("aruco_frame_prefix", "aruco");
   this->declare_parameter<double>("tf_timeout", 2.0);
+  
+  // Marker-to-grasp offset parameters (offset from ArUco marker to grasp point)
+  // These are applied to convert from marker pose to grasp target pose
+  this->declare_parameter<double>("marker_grasp_offset_x", 0.0);
+  this->declare_parameter<double>("marker_grasp_offset_y", 0.0);
+  this->declare_parameter<double>("marker_grasp_offset_z", 0.0);  // Usually negative (marker is above grasp point)
+  this->declare_parameter<bool>("use_detected_z", true);  // Use actual detected Z or hardcoded piece height
+  this->declare_parameter<bool>("debug_mode", false);  // Enable detailed debug logging
 
   this->get_parameter("world_frame", world_frame_);
   this->get_parameter("camera_frame", camera_frame_);
   this->get_parameter("aruco_frame_prefix", aruco_frame_prefix_);
   this->get_parameter("tf_timeout", tf_timeout_);
+  this->get_parameter("marker_grasp_offset_x", marker_grasp_offset_x_);
+  this->get_parameter("marker_grasp_offset_y", marker_grasp_offset_y_);
+  this->get_parameter("marker_grasp_offset_z", marker_grasp_offset_z_);
+  this->get_parameter("use_detected_z", use_detected_z_);
+  this->get_parameter("debug_mode", debug_mode_);
 
   RCLCPP_INFO(this->get_logger(), "Starting Sensing Module Node");
   RCLCPP_INFO(this->get_logger(), "  World frame: %s", world_frame_.c_str());
   RCLCPP_INFO(this->get_logger(), "  Camera frame: %s", camera_frame_.c_str());
   RCLCPP_INFO(this->get_logger(), "  Aruco frame prefix: %s", aruco_frame_prefix_.c_str());
+  RCLCPP_INFO(this->get_logger(), "  Marker-to-grasp offset: (%.3f, %.3f, %.3f)",
+              marker_grasp_offset_x_, marker_grasp_offset_y_, marker_grasp_offset_z_);
+  RCLCPP_INFO(this->get_logger(), "  Use detected Z: %s", use_detected_z_ ? "true" : "false");
+  RCLCPP_INFO(this->get_logger(), "  Debug mode: %s", debug_mode_ ? "enabled" : "disabled");
 
   // Initialize TF2
   tf_buffer_ = std::make_shared<tf2_ros::Buffer>(this->get_clock());
@@ -282,11 +299,40 @@ void SensingNode::getPieceLocationCallback(
   if (getPieceTransform(piece_id, transform)) {
     response->pose = transformToPose(transform);
     
-    // Adjust z position to be at the center of the piece
-    response->pose.position.z = piece_heights_[piece_id] / 2.0;
+    // Store raw detected pose for debug output
+    double raw_x = response->pose.position.x;
+    double raw_y = response->pose.position.y;
+    double raw_z = response->pose.position.z;
+    
+    // Apply marker-to-grasp offset
+    // This converts from the ArUco marker center to the actual grasp point on the piece
+    response->pose.position.x += marker_grasp_offset_x_;
+    response->pose.position.y += marker_grasp_offset_y_;
+    
+    // Z position handling:
+    // If use_detected_z is true, use the actual detected Z and apply the offset
+    // If use_detected_z is false, use the piece height (legacy behavior for compatibility)
+    if (use_detected_z_) {
+      // Use actual detected Z and apply offset
+      // marker_grasp_offset_z should typically be negative since marker is above grasp point
+      response->pose.position.z += marker_grasp_offset_z_;
+    } else {
+      // Legacy behavior: use hardcoded piece height
+      response->pose.position.z = piece_heights_[piece_id] / 2.0;
+    }
     
     response->success = true;
     response->message = "Successfully located piece " + std::to_string(piece_id);
+    
+    if (debug_mode_) {
+      RCLCPP_INFO(this->get_logger(), "[DEBUG] Piece %d TF chain:", piece_id);
+      RCLCPP_INFO(this->get_logger(), "  Raw ArUco pose: (%.4f, %.4f, %.4f)", raw_x, raw_y, raw_z);
+      RCLCPP_INFO(this->get_logger(), "  Applied offset: (%.4f, %.4f, %.4f)", 
+                  marker_grasp_offset_x_, marker_grasp_offset_y_, marker_grasp_offset_z_);
+      RCLCPP_INFO(this->get_logger(), "  Use detected Z: %s", use_detected_z_ ? "true" : "false");
+      RCLCPP_INFO(this->get_logger(), "  Final grasp pose: (%.4f, %.4f, %.4f)",
+                  response->pose.position.x, response->pose.position.y, response->pose.position.z);
+    }
     
     RCLCPP_INFO(this->get_logger(), "Piece %d located at (%.3f, %.3f, %.3f)",
                 piece_id, response->pose.position.x, 
