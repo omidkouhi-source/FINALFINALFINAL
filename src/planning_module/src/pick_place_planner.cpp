@@ -16,23 +16,29 @@ PickPlacePlanner::PickPlacePlanner(const rclcpp::Node::SharedPtr & node)
     "joint_states", 10);
 
   // Board configuration (aligns with default chess setup)
-  auto get_or_declare = [this](const std::string & name, auto default_value) {
-    using T = decltype(default_value);
+  auto get_or_declare_double = [this](const std::string & name, double default_value) {
     if (node_->has_parameter(name)) {
-      return node_->get_parameter(name).template get_value<T>();
+      return node_->get_parameter(name).as_double();
     }
-    return node_->declare_parameter<T>(name, default_value);
+    return node_->declare_parameter<double>(name, default_value);
   };
 
-  double square_size = get_or_declare("board_square_size", 0.05);
-  double origin_x    = get_or_declare("board_origin_x", -0.175);
-  double origin_y    = get_or_declare("board_origin_y", -0.175);
-  double board_yaw   = get_or_declare("board_yaw", 0.0);
-  bool swap_xy       = get_or_declare("board_swap_xy", true);
-  bool flip_x        = get_or_declare("board_flip_x", false);
-  bool flip_y        = get_or_declare("board_flip_y", false);
-  pick_height_offset_  = get_or_declare("pick_height_offset", 0.10);
-  place_height_offset_ = get_or_declare("place_height_offset", 0.05);
+  auto get_or_declare_bool = [this](const std::string & name, bool default_value) {
+    if (node_->has_parameter(name)) {
+      return node_->get_parameter(name).as_bool();
+    }
+    return node_->declare_parameter<bool>(name, default_value);
+  };
+
+  double square_size = get_or_declare_double("board_square_size", 0.05);
+  double origin_x    = get_or_declare_double("board_origin_x", -0.175);
+  double origin_y    = get_or_declare_double("board_origin_y", -0.175);
+  double board_yaw   = get_or_declare_double("board_yaw", 0.0);
+  bool swap_xy       = get_or_declare_bool("board_swap_xy", true);
+  bool flip_x        = get_or_declare_bool("board_flip_x", false);
+  bool flip_y        = get_or_declare_bool("board_flip_y", false);
+  pick_height_offset_  = get_or_declare_double("pick_height_offset", 0.10);
+  place_height_offset_ = get_or_declare_double("place_height_offset", 0.05);
 
   BoardConfig cfg{square_size, origin_x, origin_y, board_yaw, swap_xy, flip_x, flip_y};
   board_ = std::make_shared<BoardGeometry>(cfg);
@@ -61,6 +67,9 @@ bool PickPlacePlanner::resolve_target_pose(const std::string & target,
   pose.position.x = tf.transform.translation.x;
   pose.position.y = tf.transform.translation.y;
   pose.position.z = tf.transform.translation.z + height_offset;
+  pose.orientation.x = 0.0;
+  pose.orientation.y = 0.0;
+  pose.orientation.z = 0.0;
   pose.orientation.w = 1.0;
   return true;
 }
