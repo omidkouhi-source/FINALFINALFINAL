@@ -34,6 +34,15 @@ private:
   rclcpp::Client<kinenikros2::srv::InverseKinematics>::SharedPtr ik_client_;
   rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr joint_pub_;
 
+  bool resolve_target_pose(const std::string & target,
+                           double height_offset,
+                           geometry_msgs::msg::Pose & pose);
+
+  bool compute_and_publish(const geometry_msgs::msg::Pose & pose,
+                           const char * label);
+
+  double pick_height_offset_;
+  double place_height_offset_;
   std::shared_ptr<BoardGeometry> board_;
   std::vector<double> current_joints_;
 };
