@@ -93,10 +93,12 @@ world_file:=my_custom_world.sdf
 | `launch_rviz`    | Launch RViz visualization?                         | `true`              | `true`              |
 | `world_file`     | Gazebo world file to use                            | `flat_chesslab.sdf` | `my_custom_world.sdf`|
 | `gazebo_gui`     | Launch Gazebo with GUI?                            | `true`              | `false`              |
+| `board_origin_x` | Chessboard A1 center X in world (meters)            | `-0.175`            | `-0.170`             |
+| `board_origin_y` | Chessboard A1 center Y in world (meters)            | `-0.175`            | `-0.170`             |
+| `board_yaw`      | Chessboard yaw about Z (radians)                    | `0.0`               | `0.05`               |
 
 > **Tip:** You can combine these arguments as needed to tailor the simulation to your requirements.
 
 ---
 
 For more advanced options (controllers, prefixes, etc.), see the launch file or use `--show-args` with `ros2 launch`.
-
