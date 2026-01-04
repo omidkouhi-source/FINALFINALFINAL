@@ -39,6 +39,10 @@ def generate_launch_description():
     publish_markers_only = LaunchConfiguration('publish_markers_only', default=False)
     publish_camera_markers = LaunchConfiguration('publish_camera_markers', default=True)
 
+    board_origin_x = LaunchConfiguration('board_origin_x', default='-0.175')
+    board_origin_y = LaunchConfiguration('board_origin_y', default='-0.175')
+    board_yaw = LaunchConfiguration('board_yaw', default='0.0')
+
     # UR Arguments
     ur_type = LaunchConfiguration("ur_type", default='ur3')
 
@@ -47,8 +51,16 @@ def generate_launch_description():
         name="tf_chessboard_in_world",
         executable = "static_transform_publisher",
         output="screen",
-        arguments = ["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "chess_frame"]
-        #arguments = ["0.0", "-0.37", "-0.0385", "1.5708", "0.0", "0.0", "base", "chess_frame"]
+        arguments = [
+            board_origin_x,
+            board_origin_y,
+            "0.0",
+            "0.0",
+            "0.0",
+            board_yaw,
+            "world",
+            "chess_frame"
+        ]
     )
 
     tf_camera = Node(
@@ -64,7 +76,10 @@ def generate_launch_description():
         executable="chesslab_setup2_demo",
         name="chesslab_setup2_demo",
         parameters=[{"publish_markers_only": publish_markers_only},
-                    {"publish_camera_markers": publish_camera_markers}],
+                    {"publish_camera_markers": publish_camera_markers},
+                    {"board_origin_x": board_origin_x},
+                    {"board_origin_y": board_origin_y},
+                    {"board_yaw": board_yaw}],
         output="screen",
     )
 
@@ -94,15 +109,15 @@ def generate_launch_description():
         condition=IfCondition(launch_visualization)
     )
    
-    # Arguments
-    ld =  LaunchDescription()
-
-    ld.add_action(tf_chess_frame)
-    ld.add_action(tf_camera)
-    ld.add_action(chesslab_setup2_demo)
-    ld.add_action(ur_visualization)
-    ld.add_action(kinenikros2)
+    ld =  LaunchDescription([
+        DeclareLaunchArgument('board_origin_x', default_value='-0.175'),
+        DeclareLaunchArgument('board_origin_y', default_value='-0.175'),
+        DeclareLaunchArgument('board_yaw', default_value='0.0'),
+        tf_chess_frame,
+        tf_camera,
+        chesslab_setup2_demo,
+        ur_visualization,
+        kinenikros2
+    ])
 
     return ld
-
-

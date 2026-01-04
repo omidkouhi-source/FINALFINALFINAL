@@ -55,6 +55,12 @@ private:
   std::string camera_frame_;
   std::string aruco_frame_prefix_;
   double tf_timeout_;
+  double pose_offset_x_;
+  double pose_offset_y_;
+  double pose_offset_z_;
+  bool auto_detect_on_start_;
+
+  rclcpp::TimerBase::SharedPtr init_detect_timer_;
 
   // Helper methods
   void initializePieceIds();
@@ -97,16 +103,28 @@ SensingNode::SensingNode() : Node("sensing_node")
   this->declare_parameter<std::string>("camera_frame", "camera_color_optical_frame");
   this->declare_parameter<std::string>("aruco_frame_prefix", "aruco");
   this->declare_parameter<double>("tf_timeout", 2.0);
+  this->declare_parameter<double>("pose_offset_x", 0.0);
+  this->declare_parameter<double>("pose_offset_y", 0.0);
+  this->declare_parameter<double>("pose_offset_z", 0.0);
+  this->declare_parameter<bool>("auto_detect_on_start", true);
 
   this->get_parameter("world_frame", world_frame_);
   this->get_parameter("camera_frame", camera_frame_);
   this->get_parameter("aruco_frame_prefix", aruco_frame_prefix_);
   this->get_parameter("tf_timeout", tf_timeout_);
+  this->get_parameter("pose_offset_x", pose_offset_x_);
+  this->get_parameter("pose_offset_y", pose_offset_y_);
+  this->get_parameter("pose_offset_z", pose_offset_z_);
+  this->get_parameter("auto_detect_on_start", auto_detect_on_start_);
 
   RCLCPP_INFO(this->get_logger(), "Starting Sensing Module Node");
   RCLCPP_INFO(this->get_logger(), "  World frame: %s", world_frame_.c_str());
   RCLCPP_INFO(this->get_logger(), "  Camera frame: %s", camera_frame_.c_str());
   RCLCPP_INFO(this->get_logger(), "  Aruco frame prefix: %s", aruco_frame_prefix_.c_str());
+  RCLCPP_INFO(this->get_logger(), "  Pose offset: (%.3f, %.3f, %.3f)",
+              pose_offset_x_, pose_offset_y_, pose_offset_z_);
+  RCLCPP_INFO(this->get_logger(), "  Auto-detect on start: %s",
+              auto_detect_on_start_ ? "true" : "false");
 
   // Initialize TF2
   tf_buffer_ = std::make_shared<tf2_ros::Buffer>(this->get_clock());
@@ -140,6 +158,21 @@ SensingNode::SensingNode() : Node("sensing_node")
     "/sensing_module/validate_chess_action",
     std::bind(&SensingNode::validateChessActionCallback, this,
               std::placeholders::_1, std::placeholders::_2));
+
+  if (auto_detect_on_start_) {
+    init_detect_timer_ = this->create_wall_timer(
+      1s, [this]() {
+        auto req = std::make_shared<chesslab_setup2_interfaces::srv::DetectPiecePoses::Request>();
+        auto res = std::make_shared<chesslab_setup2_interfaces::srv::DetectPiecePoses::Response>();
+        detectPiecePosesCallback(req, res);
+        RCLCPP_INFO(this->get_logger(),
+                    "Initial auto-detect complete: success=%s, detected=%u, msg=%s",
+                    res->success ? "true" : "false",
+                    res->num_pieces_detected,
+                    res->message.c_str());
+        init_detect_timer_->cancel();
+      });
+  }
 
   RCLCPP_INFO(this->get_logger(), "Sensing Module services ready:");
   RCLCPP_INFO(this->get_logger(), "  - /sensing_module/detect_piece_poses");
@@ -213,6 +246,9 @@ geometry_msgs::msg::Pose SensingNode::transformToPose(
   pose.position.x = transform.transform.translation.x;
   pose.position.y = transform.transform.translation.y;
   pose.position.z = transform.transform.translation.z;
+  pose.position.x += pose_offset_x_;
+  pose.position.y += pose_offset_y_;
+  pose.position.z += pose_offset_z_;
   pose.orientation = transform.transform.rotation;
   return pose;
 }

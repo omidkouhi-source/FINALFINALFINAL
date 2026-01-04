@@ -166,6 +166,8 @@ ros2 service call /sensing_module/detect_piece_poses chesslab_setup2_interfaces/
 - `camera_frame` (default: "camera_color_optical_frame"): Camera frame name
 - `aruco_frame_prefix` (default: "aruco"): Prefix for ArUco marker frames
 - `tf_timeout` (default: 2.0): Timeout in seconds for TF lookups
+- `pose_offset_x/y/z` (default: 0): Optional correction applied to every detected piece pose before updating RViz and returning service results (use to compensate for consistent board/frame offsets)
+- `auto_detect_on_start` (default: true): Automatically runs `detect_piece_poses` once at startup to populate RViz with chess pieces when TFs are available
 
 ## Integration with Other Modules
 
