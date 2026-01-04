@@ -55,6 +55,9 @@ private:
   std::string camera_frame_;
   std::string aruco_frame_prefix_;
   double tf_timeout_;
+  double pose_offset_x_;
+  double pose_offset_y_;
+  double pose_offset_z_;
 
   // Helper methods
   void initializePieceIds();
@@ -97,16 +100,24 @@ SensingNode::SensingNode() : Node("sensing_node")
   this->declare_parameter<std::string>("camera_frame", "camera_color_optical_frame");
   this->declare_parameter<std::string>("aruco_frame_prefix", "aruco");
   this->declare_parameter<double>("tf_timeout", 2.0);
+  this->declare_parameter<double>("pose_offset_x", 0.0);
+  this->declare_parameter<double>("pose_offset_y", 0.0);
+  this->declare_parameter<double>("pose_offset_z", 0.0);
 
   this->get_parameter("world_frame", world_frame_);
   this->get_parameter("camera_frame", camera_frame_);
   this->get_parameter("aruco_frame_prefix", aruco_frame_prefix_);
   this->get_parameter("tf_timeout", tf_timeout_);
+  this->get_parameter("pose_offset_x", pose_offset_x_);
+  this->get_parameter("pose_offset_y", pose_offset_y_);
+  this->get_parameter("pose_offset_z", pose_offset_z_);
 
   RCLCPP_INFO(this->get_logger(), "Starting Sensing Module Node");
   RCLCPP_INFO(this->get_logger(), "  World frame: %s", world_frame_.c_str());
   RCLCPP_INFO(this->get_logger(), "  Camera frame: %s", camera_frame_.c_str());
   RCLCPP_INFO(this->get_logger(), "  Aruco frame prefix: %s", aruco_frame_prefix_.c_str());
+  RCLCPP_INFO(this->get_logger(), "  Pose offset: (%.3f, %.3f, %.3f)",
+              pose_offset_x_, pose_offset_y_, pose_offset_z_);
 
   // Initialize TF2
   tf_buffer_ = std::make_shared<tf2_ros::Buffer>(this->get_clock());
@@ -213,6 +224,9 @@ geometry_msgs::msg::Pose SensingNode::transformToPose(
   pose.position.x = transform.transform.translation.x;
   pose.position.y = transform.transform.translation.y;
   pose.position.z = transform.transform.translation.z;
+  pose.position.x += pose_offset_x_;
+  pose.position.y += pose_offset_y_;
+  pose.position.z += pose_offset_z_;
   pose.orientation = transform.transform.rotation;
   return pose;
 }
