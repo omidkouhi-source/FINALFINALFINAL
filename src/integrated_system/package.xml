@@ -19,6 +19,7 @@
   <exec_depend>aruco_broadcaster</exec_depend>
   <exec_depend>kinenikros2</exec_depend>
   <exec_depend>robotiq_85_gripper_server</exec_depend>
+  <exec_depend>chess_ui</exec_depend>
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
 

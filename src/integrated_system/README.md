@@ -2,26 +2,57 @@
 
 ## Overview
 
-The `integrated_system` package provides master launch files that bring together all three modules of the chess robot system:
+The `integrated_system` package provides master launch files that bring together all components of the chess robot system:
 
-1. **Sensing Module** - Perception and piece detection using ArUco markers
-2. **Planning Module** - Motion planning for pick and place operations
-3. **Action Module** - Execution control and gripper coordination
+1. **Gazebo Simulation** - UR3 robot, chessboard, camera, and chess pieces
+2. **ArUco Broadcaster** - Marker detection and TF frame publishing
+3. **Sensing Module** - Perception and piece detection using ArUco markers
+4. **Planning Module** - Motion planning for pick and place operations
+5. **Action Module** - Execution control and gripper coordination
+6. **Chess UI** - Web-based user interface
+
+## 🚀 Quick Start
+
+### Single Command Launch (Recommended)
+
+```bash
+ros2 launch integrated_system chess_robot_complete.launch.py
+```
+
+This starts **everything** - Gazebo, ArUco detection, all modules, and the web UI.
+
+After launching:
+1. Wait ~10 seconds for all components to initialize
+2. Open http://localhost:8080 for the web UI
+3. Or use the service: `ros2 service call /move_piece action_module/srv/MovePiece "{aruco_id: 316, target_square: 'e4'}"`
+
+### With Custom Parameters
+
+```bash
+ros2 launch integrated_system chess_robot_complete.launch.py \
+    ur_type:=ur3 \
+    debug_mode:=true \
+    marker_grasp_offset_x:=0.005
+```
 
 ## Features
 
-- Single launch file for complete system startup
-- Configurable pick and place targets
-- Support for both simulation and real robot
-- Automatic service dependency management
-- Centralized logging and monitoring
+- ✅ Single launch file for complete system startup
+- ✅ Configurable robot type and parameters
+- ✅ Debug mode for troubleshooting
+- ✅ Web UI for interactive control
+- ✅ Automatic service dependency management
+- ✅ Support for both simulation and real robot
 
 ## Package Contents
 
 ### Launch Files
 
-- `full_system.launch.py` - Complete system for simulation
-- `full_system_real.launch.py` - Complete system for real robot
+| File | Description |
+|------|-------------|
+| `chess_robot_complete.launch.py` | **Complete system** - launches everything |
+| `full_system.launch.py` | Modules only (requires Gazebo running separately) |
+| `full_system_real.launch.py` | For real robot (requires robot driver separately) |
 
 ### Dependencies
 
